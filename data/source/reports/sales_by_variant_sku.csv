@@ -1,0 +1,276 @@
+month,sales_channel,catalog_entry_id,product_id,variant_id,sku,sku_status,product_title,variant_title,analysis_category,orders,net_quantity,gross_sales_usd,discounts_usd,sales_reversals_usd,net_sales_usd,currency,is_synthetic
+2027-01,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,1,1,69.98,0.00,0.00,69.98,USD,true
+2027-01,Online Store,P016,10307923411225,53147929280793,TR-REPAIR-STANDARD-N-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / None / Mouse-Click Triggers,Repair,1,1,109.98,0.00,0.00,109.98,USD,true
+2027-01,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,3,3,254.94,0.00,0.00,254.94,USD,true
+2027-01,Online Store,P020,10307923411225,53147929411865,TR-REPAIR-STANDARD-HE-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / Mouse-Click Triggers,Repair,1,1,149.97,0.00,0.00,149.97,USD,true
+2027-01,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,5,5,459.90,0.00,0.00,459.90,USD,true
+2027-01,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,1,1,80.98,0.00,0.00,80.98,USD,true
+2027-01,Online Store,P031,10307923411225,53147929772313,TR-REPAIR-FTR-HE-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Hall Effect / None,Repair,1,1,114.98,0.00,0.00,114.98,USD,true
+2027-01,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-01,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,2,2,159.98,0.00,0.00,159.98,USD,true
+2027-01,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,1,1,129.99,0.00,0.00,129.99,USD,true
+2027-01,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,2,2,379.98,0.00,0.00,379.98,USD,true
+2027-01,Online Store,P045,10313115336985,53147930624281,TR-ALC-N-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,None / Triggers and Bumpers / None,Upgrade,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-01,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,1,1,42.99,0.00,0.00,42.99,USD,true
+2027-01,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,1,1,49.99,0.00,0.00,49.99,USD,true
+2027-01,Online Store,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-01,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-01,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,5,5,99.95,0.00,0.00,99.95,USD,true
+2027-01,Online Store,P056,,,,not_created_hypothetical_release,Premium Controller - Simulated 2027 Release 01,PS5 DualSense,Premium,15,15,7125.00,0.00,0.00,7125.00,USD,true
+2027-01,Online Store,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-01,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,149.98,0.00,0.00,149.98,USD,true
+2027-01,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,2,2,119.98,0.00,0.00,119.98,USD,true
+2027-01,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-02,Online Store,P001,10307923411225,52164748312857,TR-REPAIR-BASIC,present_in_shopify,Mail-In Controller Repair Service,Basic / None / None,Repair,1,1,29.99,0.00,0.00,29.99,USD,true
+2027-02,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,1,1,76.98,0.00,0.00,76.98,USD,true
+2027-02,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,6,6,551.88,0.00,0.00,551.88,USD,true
+2027-02,Online Store,P039,10307923411225,53147930034457,TR-REPAIR-FTR-JCP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Joy-Con Pair / None,Repair,2,2,269.96,0.00,0.00,269.96,USD,true
+2027-02,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,3,3,389.97,0.00,0.00,389.97,USD,true
+2027-02,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,1,1,189.99,0.00,0.00,189.99,USD,true
+2027-02,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,2,2,85.98,0.00,0.00,85.98,USD,true
+2027-02,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,2,2,99.98,0.00,0.00,99.98,USD,true
+2027-02,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,9,9,179.91,0.00,0.00,179.91,USD,true
+2027-02,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,149.98,0.00,0.00,149.98,USD,true
+2027-02,eBay,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-02,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-02,eBay,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-03,Online Store,P002,10307923411225,52164748345625,TR-REPAIR-STANDARD,present_in_shopify,Mail-In Controller Repair Service,Standard / None / None,Repair,1,1,44.99,0.00,0.00,44.99,USD,true
+2027-03,Online Store,P003,10307923411225,52164748378393,TR-REPAIR-FTR,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / None / None,Repair,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-03,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,1,1,76.98,0.00,0.00,76.98,USD,true
+2027-03,Online Store,P015,10307923411225,53147929248025,TR-REPAIR-BASIC-JCP,present_in_shopify,Mail-In Controller Repair Service,Basic / Joy-Con Pair / None,Repair,1,1,53.98,0.00,0.00,53.98,USD,true
+2027-03,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,1,1,84.98,0.00,0.00,84.98,USD,true
+2027-03,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,3,3,275.94,0.00,0.00,275.94,USD,true
+2027-03,Online Store,P024,10307923411225,53147929542937,TR-REPAIR-STANDARD-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / Mouse-Click Triggers,Repair,1,1,156.97,0.00,0.00,156.97,USD,true
+2027-03,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,1,1,80.98,0.00,0.00,80.98,USD,true
+2027-03,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-03,Online Store,P039,10307923411225,53147930034457,TR-REPAIR-FTR-JCP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Joy-Con Pair / None,Repair,1,1,134.98,0.00,0.00,134.98,USD,true
+2027-03,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,2,2,259.98,0.00,0.00,259.98,USD,true
+2027-03,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,1,1,189.99,0.00,0.00,189.99,USD,true
+2027-03,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,2,2,99.98,0.00,0.00,99.98,USD,true
+2027-03,Online Store,P050,10313115336985,53147931246873,TR-ALC-TMR-FULL-4RI,present_in_shopify,Build Your Own Controller Upgrades,TMR / Complete Control Set / Four Rear Inputs,Upgrade,2,2,489.94,0.00,0.00,489.94,USD,true
+2027-03,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-03,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,6,6,119.94,0.00,0.00,119.94,USD,true
+2027-03,Online Store,P057,,,,not_created_hypothetical_release,Premium Controller - Simulated 2027 Release 02,PS5 DualSense,Premium,15,15,5250.00,0.00,0.00,5250.00,USD,true
+2027-03,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-04,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,1,1,69.98,0.00,0.00,69.98,USD,true
+2027-04,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,1,1,76.98,0.00,0.00,76.98,USD,true
+2027-04,Online Store,P015,10307923411225,53147929248025,TR-REPAIR-BASIC-JCP,present_in_shopify,Mail-In Controller Repair Service,Basic / Joy-Con Pair / None,Repair,1,1,53.98,0.00,0.00,53.98,USD,true
+2027-04,Online Store,P016,10307923411225,53147929280793,TR-REPAIR-STANDARD-N-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / None / Mouse-Click Triggers,Repair,1,1,109.98,0.00,0.00,109.98,USD,true
+2027-04,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,1,1,84.98,0.00,0.00,84.98,USD,true
+2027-04,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,1,1,91.98,0.00,0.00,91.98,USD,true
+2027-04,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,1,1,80.98,0.00,0.00,80.98,USD,true
+2027-04,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-04,Online Store,P039,10307923411225,53147930034457,TR-REPAIR-FTR-JCP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Joy-Con Pair / None,Repair,1,1,134.98,0.00,0.00,134.98,USD,true
+2027-04,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,1,1,79.99,0.00,0.00,79.99,USD,true
+2027-04,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,2,2,259.98,0.00,0.00,259.98,USD,true
+2027-04,Online Store,P044,10313115336985,53147930558745,TR-ALC-N-FACE-N,present_in_shopify,Build Your Own Controller Upgrades,None / Face Buttons and D-Pad / None,Upgrade,1,1,44.99,0.00,0.00,44.99,USD,true
+2027-04,Online Store,P045,10313115336985,53147930624281,TR-ALC-N-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,None / Triggers and Bumpers / None,Upgrade,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-04,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,3,3,128.97,0.00,0.00,128.97,USD,true
+2027-04,Online Store,P048,10313115336985,53147930886425,TR-ALC-HE-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / Triggers and Bumpers / None,Upgrade,1,1,112.98,0.00,0.00,112.98,USD,true
+2027-04,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,4,4,199.96,0.00,0.00,199.96,USD,true
+2027-04,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-04,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,8,8,159.92,0.00,0.00,159.92,USD,true
+2027-04,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-04,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,149.98,0.00,0.00,149.98,USD,true
+2027-05,Online Store,P001,10307923411225,52164748312857,TR-REPAIR-BASIC,present_in_shopify,Mail-In Controller Repair Service,Basic / None / None,Repair,1,1,29.99,0.00,0.00,29.99,USD,true
+2027-05,Online Store,P002,10307923411225,52164748345625,TR-REPAIR-STANDARD,present_in_shopify,Mail-In Controller Repair Service,Standard / None / None,Repair,1,1,44.99,0.00,0.00,44.99,USD,true
+2027-05,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,1,1,69.98,0.00,0.00,69.98,USD,true
+2027-05,Online Store,P010,10307923411225,53147929084185,TR-REPAIR-BASIC-HE-MCT-4BP,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / Mouse-Click Triggers + Four Back Paddles,Repair,1,1,224.96,0.00,0.00,224.96,USD,true
+2027-05,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,1,1,76.98,0.00,0.00,76.98,USD,true
+2027-05,Online Store,P015,10307923411225,53147929248025,TR-REPAIR-BASIC-JCP,present_in_shopify,Mail-In Controller Repair Service,Basic / Joy-Con Pair / None,Repair,1,1,53.98,0.00,0.00,53.98,USD,true
+2027-05,Online Store,P016,10307923411225,53147929280793,TR-REPAIR-STANDARD-N-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / None / Mouse-Click Triggers,Repair,1,1,109.98,0.00,0.00,109.98,USD,true
+2027-05,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,2,2,169.96,0.00,0.00,169.96,USD,true
+2027-05,Online Store,P022,10307923411225,53147929477401,TR-REPAIR-STANDARD-HE-MCT-4BP,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / Mouse-Click Triggers + Four Back Paddles,Repair,1,1,239.96,0.00,0.00,239.96,USD,true
+2027-05,Online Store,P024,10307923411225,53147929542937,TR-REPAIR-STANDARD-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / Mouse-Click Triggers,Repair,1,1,156.97,0.00,0.00,156.97,USD,true
+2027-05,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,1,1,80.98,0.00,0.00,80.98,USD,true
+2027-05,Online Store,P028,10307923411225,53147929674009,TR-REPAIR-FTR-N-MCT,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / None / Mouse-Click Triggers,Repair,1,1,139.98,0.00,0.00,139.98,USD,true
+2027-05,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-05,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,2,2,259.98,0.00,0.00,259.98,USD,true
+2027-05,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,1,1,189.99,0.00,0.00,189.99,USD,true
+2027-05,Online Store,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-05,Online Store,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-05,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-05,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,3,3,59.97,0.00,0.00,59.97,USD,true
+2027-05,Online Store,P058,,,,not_created_hypothetical_release,Premium Controller - Simulated 2027 Release 03,PS5 DualSense,Premium,15,15,6750.00,0.00,0.00,6750.00,USD,true
+2027-05,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,149.98,0.00,0.00,149.98,USD,true
+2027-05,eBay,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-05,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,2,2,119.98,0.00,0.00,119.98,USD,true
+2027-05,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-05,eBay,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-06,Online Store,P001,10307923411225,52164748312857,TR-REPAIR-BASIC,present_in_shopify,Mail-In Controller Repair Service,Basic / None / None,Repair,2,2,59.98,0.00,0.00,59.98,USD,true
+2027-06,Online Store,P003,10307923411225,52164748378393,TR-REPAIR-FTR,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / None / None,Repair,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-06,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,1,1,69.98,0.00,0.00,69.98,USD,true
+2027-06,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,2,2,153.96,0.00,0.00,153.96,USD,true
+2027-06,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,5,5,424.90,0.00,0.00,424.90,USD,true
+2027-06,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,3,3,275.94,0.00,0.00,275.94,USD,true
+2027-06,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,1,1,80.98,0.00,0.00,80.98,USD,true
+2027-06,Online Store,P034,10307923411225,53147929870617,TR-REPAIR-FTR-HE-MCT-4BP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Hall Effect / Mouse-Click Triggers + Four Back Paddles,Repair,1,1,269.96,0.00,0.00,269.96,USD,true
+2027-06,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,2,2,259.98,0.00,0.00,259.98,USD,true
+2027-06,Online Store,P044,10313115336985,53147930558745,TR-ALC-N-FACE-N,present_in_shopify,Build Your Own Controller Upgrades,None / Face Buttons and D-Pad / None,Upgrade,1,1,44.99,0.00,0.00,44.99,USD,true
+2027-06,Online Store,P045,10313115336985,53147930624281,TR-ALC-N-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,None / Triggers and Bumpers / None,Upgrade,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-06,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,2,2,85.98,0.00,0.00,85.98,USD,true
+2027-06,Online Store,P048,10313115336985,53147930886425,TR-ALC-HE-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / Triggers and Bumpers / None,Upgrade,1,1,112.98,0.00,0.00,112.98,USD,true
+2027-06,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,3,3,149.97,0.00,0.00,149.97,USD,true
+2027-06,Online Store,P050,10313115336985,53147931246873,TR-ALC-TMR-FULL-4RI,present_in_shopify,Build Your Own Controller Upgrades,TMR / Complete Control Set / Four Rear Inputs,Upgrade,1,1,244.97,0.00,0.00,244.97,USD,true
+2027-06,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-06,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,14,14,279.86,0.00,0.00,279.86,USD,true
+2027-06,Online Store,P062,,,,not_created_hypothetical_release,Masterpiece Controller - Simulated 2027 Release 01,PS5 DualSense,Masterpiece,1,1,1250.00,0.00,0.00,1250.00,USD,true
+2027-06,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-06,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,4,4,299.96,0.00,0.00,299.96,USD,true
+2027-07,Online Store,P003,10307923411225,52164748378393,TR-REPAIR-FTR,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / None / None,Repair,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-07,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,2,2,139.96,0.00,0.00,139.96,USD,true
+2027-07,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,1,1,76.98,0.00,0.00,76.98,USD,true
+2027-07,Online Store,P012,10307923411225,53147929149721,TR-REPAIR-BASIC-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / Mouse-Click Triggers,Repair,2,2,283.94,0.00,0.00,283.94,USD,true
+2027-07,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,2,2,169.96,0.00,0.00,169.96,USD,true
+2027-07,Online Store,P021,10307923411225,53147929444633,TR-REPAIR-STANDARD-HE-4BP,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / Four Back Paddles,Repair,1,1,174.97,0.00,0.00,174.97,USD,true
+2027-07,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,1,1,91.98,0.00,0.00,91.98,USD,true
+2027-07,Online Store,P032,10307923411225,53147929805081,TR-REPAIR-FTR-HE-MCT,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Hall Effect / Mouse-Click Triggers,Repair,2,2,359.94,0.00,0.00,359.94,USD,true
+2027-07,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-07,Online Store,P039,10307923411225,53147930034457,TR-REPAIR-FTR-JCP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Joy-Con Pair / None,Repair,2,2,269.96,0.00,0.00,269.96,USD,true
+2027-07,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,1,1,79.99,0.00,0.00,79.99,USD,true
+2027-07,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,3,3,389.97,0.00,0.00,389.97,USD,true
+2027-07,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,1,1,189.99,0.00,0.00,189.99,USD,true
+2027-07,Online Store,P043,10313115336985,53147930525977,TR-ALC-N-N-4RI,present_in_shopify,Build Your Own Controller Upgrades,None / None / Four Rear Inputs,Upgrade,1,1,94.99,0.00,0.00,94.99,USD,true
+2027-07,Online Store,P046,10313115336985,53147930689817,TR-ALC-N-FULL-N,present_in_shopify,Build Your Own Controller Upgrades,None / Complete Control Set / None,Upgrade,1,1,99.99,0.00,0.00,99.99,USD,true
+2027-07,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,1,1,42.99,0.00,0.00,42.99,USD,true
+2027-07,Online Store,P048,10313115336985,53147930886425,TR-ALC-HE-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / Triggers and Bumpers / None,Upgrade,1,1,112.98,0.00,0.00,112.98,USD,true
+2027-07,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,2,2,99.98,0.00,0.00,99.98,USD,true
+2027-07,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,2,2,119.98,0.00,0.00,119.98,USD,true
+2027-07,Online Store,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,149.98,0.00,0.00,149.98,USD,true
+2027-07,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,9,9,179.91,0.00,0.00,179.91,USD,true
+2027-07,Online Store,P059,,,,not_created_hypothetical_release,Premium Controller - Simulated 2027 Release 04,PS5 DualSense,Premium,15,15,5625.00,0.00,0.00,5625.00,USD,true
+2027-07,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,149.98,0.00,0.00,149.98,USD,true
+2027-07,eBay,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-07,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-08,Online Store,P001,10307923411225,52164748312857,TR-REPAIR-BASIC,present_in_shopify,Mail-In Controller Repair Service,Basic / None / None,Repair,1,1,29.99,0.00,0.00,29.99,USD,true
+2027-08,Online Store,P002,10307923411225,52164748345625,TR-REPAIR-STANDARD,present_in_shopify,Mail-In Controller Repair Service,Standard / None / None,Repair,2,2,89.98,0.00,0.00,89.98,USD,true
+2027-08,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,3,3,230.94,0.00,0.00,230.94,USD,true
+2027-08,Online Store,P017,10307923411225,53147929313561,TR-REPAIR-STANDARD-N-4BP,present_in_shopify,Mail-In Controller Repair Service,Standard / None / Four Back Paddles,Repair,1,1,134.98,0.00,0.00,134.98,USD,true
+2027-08,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,1,1,84.98,0.00,0.00,84.98,USD,true
+2027-08,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,1,1,91.98,0.00,0.00,91.98,USD,true
+2027-08,Online Store,P024,10307923411225,53147929542937,TR-REPAIR-STANDARD-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / Mouse-Click Triggers,Repair,1,1,156.97,0.00,0.00,156.97,USD,true
+2027-08,Online Store,P026,10307923411225,53147929608473,TR-REPAIR-STANDARD-TMR-MCT-4BP,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / Mouse-Click Triggers + Four Back Paddles,Repair,1,1,246.96,0.00,0.00,246.96,USD,true
+2027-08,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,1,1,80.98,0.00,0.00,80.98,USD,true
+2027-08,Online Store,P031,10307923411225,53147929772313,TR-REPAIR-FTR-HE-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Hall Effect / None,Repair,1,1,114.98,0.00,0.00,114.98,USD,true
+2027-08,Online Store,P039,10307923411225,53147930034457,TR-REPAIR-FTR-JCP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Joy-Con Pair / None,Repair,1,1,134.98,0.00,0.00,134.98,USD,true
+2027-08,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,2,2,159.98,0.00,0.00,159.98,USD,true
+2027-08,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,1,1,129.99,0.00,0.00,129.99,USD,true
+2027-08,Online Store,P043,10313115336985,53147930525977,TR-ALC-N-N-4RI,present_in_shopify,Build Your Own Controller Upgrades,None / None / Four Rear Inputs,Upgrade,1,1,94.99,0.00,0.00,94.99,USD,true
+2027-08,Online Store,P044,10313115336985,53147930558745,TR-ALC-N-FACE-N,present_in_shopify,Build Your Own Controller Upgrades,None / Face Buttons and D-Pad / None,Upgrade,1,1,44.99,0.00,0.00,44.99,USD,true
+2027-08,Online Store,P045,10313115336985,53147930624281,TR-ALC-N-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,None / Triggers and Bumpers / None,Upgrade,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-08,Online Store,P048,10313115336985,53147930886425,TR-ALC-HE-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / Triggers and Bumpers / None,Upgrade,2,2,225.96,0.00,0.00,225.96,USD,true
+2027-08,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,2,2,99.98,0.00,0.00,99.98,USD,true
+2027-08,Online Store,P050,10313115336985,53147931246873,TR-ALC-TMR-FULL-4RI,present_in_shopify,Build Your Own Controller Upgrades,TMR / Complete Control Set / Four Rear Inputs,Upgrade,1,1,244.97,0.00,0.00,244.97,USD,true
+2027-08,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-08,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,6,6,119.94,0.00,0.00,119.94,USD,true
+2027-08,eBay,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-08,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-08,eBay,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-09,Online Store,P001,10307923411225,52164748312857,TR-REPAIR-BASIC,present_in_shopify,Mail-In Controller Repair Service,Basic / None / None,Repair,1,1,29.99,0.00,0.00,29.99,USD,true
+2027-09,Online Store,P002,10307923411225,52164748345625,TR-REPAIR-STANDARD,present_in_shopify,Mail-In Controller Repair Service,Standard / None / None,Repair,1,1,44.99,0.00,0.00,44.99,USD,true
+2027-09,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,2,2,139.96,0.00,0.00,139.96,USD,true
+2027-09,Online Store,P008,10307923411225,53147929018649,TR-REPAIR-BASIC-HE-MCT,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / Mouse-Click Triggers,Repair,1,1,134.97,0.00,0.00,134.97,USD,true
+2027-09,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,1,1,76.98,0.00,0.00,76.98,USD,true
+2027-09,Online Store,P013,10307923411225,53147929182489,TR-REPAIR-BASIC-TMR-4BP,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / Four Back Paddles,Repair,1,1,166.97,0.00,0.00,166.97,USD,true
+2027-09,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,1,1,91.98,0.00,0.00,91.98,USD,true
+2027-09,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,2,2,161.96,0.00,0.00,161.96,USD,true
+2027-09,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-09,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,1,1,79.99,0.00,0.00,79.99,USD,true
+2027-09,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,3,3,389.97,0.00,0.00,389.97,USD,true
+2027-09,Online Store,P043,10313115336985,53147930525977,TR-ALC-N-N-4RI,present_in_shopify,Build Your Own Controller Upgrades,None / None / Four Rear Inputs,Upgrade,1,1,94.99,0.00,0.00,94.99,USD,true
+2027-09,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,2,2,85.98,0.00,0.00,85.98,USD,true
+2027-09,Online Store,P048,10313115336985,53147930886425,TR-ALC-HE-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / Triggers and Bumpers / None,Upgrade,1,1,112.98,0.00,0.00,112.98,USD,true
+2027-09,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,3,3,149.97,0.00,0.00,149.97,USD,true
+2027-09,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,4,4,79.96,0.00,0.00,79.96,USD,true
+2027-09,Online Store,P060,,,,not_created_hypothetical_release,Premium Controller - Simulated 2027 Release 05,PS5 DualSense,Premium,15,15,7500.00,0.00,0.00,7500.00,USD,true
+2027-09,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-09,eBay,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-09,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,2,2,119.98,0.00,0.00,119.98,USD,true
+2027-09,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,5,5,374.95,0.00,0.00,374.95,USD,true
+2027-09,eBay,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-10,Online Store,P002,10307923411225,52164748345625,TR-REPAIR-STANDARD,present_in_shopify,Mail-In Controller Repair Service,Standard / None / None,Repair,1,1,44.99,0.00,0.00,44.99,USD,true
+2027-10,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,1,1,69.98,0.00,0.00,69.98,USD,true
+2027-10,Online Store,P015,10307923411225,53147929248025,TR-REPAIR-BASIC-JCP,present_in_shopify,Mail-In Controller Repair Service,Basic / Joy-Con Pair / None,Repair,1,1,53.98,0.00,0.00,53.98,USD,true
+2027-10,Online Store,P016,10307923411225,53147929280793,TR-REPAIR-STANDARD-N-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / None / Mouse-Click Triggers,Repair,1,1,109.98,0.00,0.00,109.98,USD,true
+2027-10,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,1,1,84.98,0.00,0.00,84.98,USD,true
+2027-10,Online Store,P020,10307923411225,53147929411865,TR-REPAIR-STANDARD-HE-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / Mouse-Click Triggers,Repair,1,1,149.97,0.00,0.00,149.97,USD,true
+2027-10,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,4,4,367.92,0.00,0.00,367.92,USD,true
+2027-10,Online Store,P024,10307923411225,53147929542937,TR-REPAIR-STANDARD-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / Mouse-Click Triggers,Repair,1,1,156.97,0.00,0.00,156.97,USD,true
+2027-10,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,3,3,242.94,0.00,0.00,242.94,USD,true
+2027-10,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,2,2,243.96,0.00,0.00,243.96,USD,true
+2027-10,Online Store,P036,10307923411225,53147929936153,TR-REPAIR-FTR-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / Mouse-Click Triggers,Repair,1,1,186.97,0.00,0.00,186.97,USD,true
+2027-10,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,1,1,79.99,0.00,0.00,79.99,USD,true
+2027-10,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,3,3,389.97,0.00,0.00,389.97,USD,true
+2027-10,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,2,2,379.98,0.00,0.00,379.98,USD,true
+2027-10,Online Store,P043,10313115336985,53147930525977,TR-ALC-N-N-4RI,present_in_shopify,Build Your Own Controller Upgrades,None / None / Four Rear Inputs,Upgrade,1,1,94.99,0.00,0.00,94.99,USD,true
+2027-10,Online Store,P045,10313115336985,53147930624281,TR-ALC-N-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,None / Triggers and Bumpers / None,Upgrade,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-10,Online Store,P046,10313115336985,53147930689817,TR-ALC-N-FULL-N,present_in_shopify,Build Your Own Controller Upgrades,None / Complete Control Set / None,Upgrade,1,1,99.99,0.00,0.00,99.99,USD,true
+2027-10,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,2,2,99.98,0.00,0.00,99.98,USD,true
+2027-10,Online Store,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-10,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,11,11,219.89,0.00,0.00,219.89,USD,true
+2027-10,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,3,3,224.97,0.00,0.00,224.97,USD,true
+2027-10,eBay,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-10,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,3,3,179.97,0.00,0.00,179.97,USD,true
+2027-10,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,3,3,224.97,0.00,0.00,224.97,USD,true
+2027-11,Online Store,P002,10307923411225,52164748345625,TR-REPAIR-STANDARD,present_in_shopify,Mail-In Controller Repair Service,Standard / None / None,Repair,3,3,134.97,0.00,0.00,134.97,USD,true
+2027-11,Online Store,P003,10307923411225,52164748378393,TR-REPAIR-FTR,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / None / None,Repair,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-11,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,1,1,76.98,0.00,0.00,76.98,USD,true
+2027-11,Online Store,P015,10307923411225,53147929248025,TR-REPAIR-BASIC-JCP,present_in_shopify,Mail-In Controller Repair Service,Basic / Joy-Con Pair / None,Repair,1,1,53.98,0.00,0.00,53.98,USD,true
+2027-11,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,1,1,84.98,0.00,0.00,84.98,USD,true
+2027-11,Online Store,P020,10307923411225,53147929411865,TR-REPAIR-STANDARD-HE-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / Mouse-Click Triggers,Repair,1,1,149.97,0.00,0.00,149.97,USD,true
+2027-11,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,3,3,275.94,0.00,0.00,275.94,USD,true
+2027-11,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,5,5,404.90,0.00,0.00,404.90,USD,true
+2027-11,Online Store,P028,10307923411225,53147929674009,TR-REPAIR-FTR-N-MCT,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / None / Mouse-Click Triggers,Repair,1,1,139.98,0.00,0.00,139.98,USD,true
+2027-11,Online Store,P031,10307923411225,53147929772313,TR-REPAIR-FTR-HE-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Hall Effect / None,Repair,1,1,114.98,0.00,0.00,114.98,USD,true
+2027-11,Online Store,P033,10307923411225,53147929837849,TR-REPAIR-FTR-HE-4BP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Hall Effect / Four Back Paddles,Repair,1,1,204.97,0.00,0.00,204.97,USD,true
+2027-11,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-11,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,2,2,159.98,0.00,0.00,159.98,USD,true
+2027-11,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,3,3,389.97,0.00,0.00,389.97,USD,true
+2027-11,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,2,2,379.98,0.00,0.00,379.98,USD,true
+2027-11,Online Store,P044,10313115336985,53147930558745,TR-ALC-N-FACE-N,present_in_shopify,Build Your Own Controller Upgrades,None / Face Buttons and D-Pad / None,Upgrade,2,2,89.98,0.00,0.00,89.98,USD,true
+2027-11,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,2,2,85.98,0.00,0.00,85.98,USD,true
+2027-11,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,3,3,149.97,0.00,0.00,149.97,USD,true
+2027-11,Online Store,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-11,Online Store,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-11,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,12,12,239.88,0.00,0.00,239.88,USD,true
+2027-11,Online Store,P061,,,,not_created_hypothetical_release,Premium Controller - Simulated 2027 Release 06,PS5 DualSense,Premium,15,15,6375.00,0.00,0.00,6375.00,USD,true
+2027-11,Online Store,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-11,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,8,8,599.92,0.00,0.00,599.92,USD,true
+2027-11,eBay,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-11,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-11,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,3,3,224.97,0.00,0.00,224.97,USD,true
+2027-11,eBay,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,139.98,0.00,0.00,139.98,USD,true
+2027-12,Online Store,P001,10307923411225,52164748312857,TR-REPAIR-BASIC,present_in_shopify,Mail-In Controller Repair Service,Basic / None / None,Repair,1,1,29.99,0.00,0.00,29.99,USD,true
+2027-12,Online Store,P002,10307923411225,52164748345625,TR-REPAIR-STANDARD,present_in_shopify,Mail-In Controller Repair Service,Standard / None / None,Repair,2,2,89.98,0.00,0.00,89.98,USD,true
+2027-12,Online Store,P007,10307923411225,53147928985881,TR-REPAIR-BASIC-HE-N,present_in_shopify,Mail-In Controller Repair Service,Basic / Hall Effect / None,Repair,2,2,139.96,0.00,0.00,139.96,USD,true
+2027-12,Online Store,P011,10307923411225,53147929116953,TR-REPAIR-BASIC-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / None,Repair,2,2,153.96,0.00,0.00,153.96,USD,true
+2027-12,Online Store,P012,10307923411225,53147929149721,TR-REPAIR-BASIC-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / Mouse-Click Triggers,Repair,1,1,141.97,0.00,0.00,141.97,USD,true
+2027-12,Online Store,P013,10307923411225,53147929182489,TR-REPAIR-BASIC-TMR-4BP,present_in_shopify,Mail-In Controller Repair Service,Basic / TMR / Four Back Paddles,Repair,1,1,166.97,0.00,0.00,166.97,USD,true
+2027-12,Online Store,P015,10307923411225,53147929248025,TR-REPAIR-BASIC-JCP,present_in_shopify,Mail-In Controller Repair Service,Basic / Joy-Con Pair / None,Repair,1,1,53.98,0.00,0.00,53.98,USD,true
+2027-12,Online Store,P018,10307923411225,53147929346329,TR-REPAIR-STANDARD-N-MCT-4BP,present_in_shopify,Mail-In Controller Repair Service,Standard / None / Mouse-Click Triggers + Four Back Paddles,Repair,1,1,199.97,0.00,0.00,199.97,USD,true
+2027-12,Online Store,P019,10307923411225,53147929379097,TR-REPAIR-STANDARD-HE-N,present_in_shopify,Mail-In Controller Repair Service,Standard / Hall Effect / None,Repair,1,1,84.98,0.00,0.00,84.98,USD,true
+2027-12,Online Store,P023,10307923411225,53147929510169,TR-REPAIR-STANDARD-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / None,Repair,4,4,367.92,0.00,0.00,367.92,USD,true
+2027-12,Online Store,P024,10307923411225,53147929542937,TR-REPAIR-STANDARD-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / Mouse-Click Triggers,Repair,4,4,627.88,0.00,0.00,627.88,USD,true
+2027-12,Online Store,P025,10307923411225,53147929575705,TR-REPAIR-STANDARD-TMR-4BP,present_in_shopify,Mail-In Controller Repair Service,Standard / TMR / Four Back Paddles,Repair,1,1,181.97,0.00,0.00,181.97,USD,true
+2027-12,Online Store,P027,10307923411225,53147929641241,TR-REPAIR-STANDARD-JCP,present_in_shopify,Mail-In Controller Repair Service,Standard / Joy-Con Pair / None,Repair,1,1,80.98,0.00,0.00,80.98,USD,true
+2027-12,Online Store,P031,10307923411225,53147929772313,TR-REPAIR-FTR-HE-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Hall Effect / None,Repair,2,2,229.96,0.00,0.00,229.96,USD,true
+2027-12,Online Store,P035,10307923411225,53147929903385,TR-REPAIR-FTR-TMR-N,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / None,Repair,1,1,121.98,0.00,0.00,121.98,USD,true
+2027-12,Online Store,P036,10307923411225,53147929936153,TR-REPAIR-FTR-TMR-MCT,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / Mouse-Click Triggers,Repair,1,1,186.97,0.00,0.00,186.97,USD,true
+2027-12,Online Store,P037,10307923411225,53147929968921,TR-REPAIR-FTR-TMR-4BP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / TMR / Four Back Paddles,Repair,1,1,211.97,0.00,0.00,211.97,USD,true
+2027-12,Online Store,P039,10307923411225,53147930034457,TR-REPAIR-FTR-JCP,present_in_shopify,Mail-In Controller Repair Service,Full Tech Revival / Joy-Con Pair / None,Repair,1,1,134.98,0.00,0.00,134.98,USD,true
+2027-12,Online Store,P040,10307762979097,52164166746393,TR-BUNDLE-OB,present_in_shopify,Performance Upgrade Bundles,OUTBREAK,Upgrade,2,2,159.98,0.00,0.00,159.98,USD,true
+2027-12,Online Store,P041,10307762979097,52164166779161,TR-BUNDLE-AP,present_in_shopify,Performance Upgrade Bundles,APEX PREDATOR,Upgrade,2,2,259.98,0.00,0.00,259.98,USD,true
+2027-12,Online Store,P042,10307762979097,52164166811929,TR-BUNDLE-PZ,present_in_shopify,Performance Upgrade Bundles,PATIENT ZERO,Upgrade,1,1,189.99,0.00,0.00,189.99,USD,true
+2027-12,Online Store,P043,10313115336985,53147930525977,TR-ALC-N-N-4RI,present_in_shopify,Build Your Own Controller Upgrades,None / None / Four Rear Inputs,Upgrade,1,1,94.99,0.00,0.00,94.99,USD,true
+2027-12,Online Store,P045,10313115336985,53147930624281,TR-ALC-N-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,None / Triggers and Bumpers / None,Upgrade,3,3,209.97,0.00,0.00,209.97,USD,true
+2027-12,Online Store,P047,10313115336985,53147930755353,TR-ALC-HE-N-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / None / None,Upgrade,2,2,85.98,0.00,0.00,85.98,USD,true
+2027-12,Online Store,P048,10313115336985,53147930886425,TR-ALC-HE-TRIG-N,present_in_shopify,Build Your Own Controller Upgrades,Hall Effect / Triggers and Bumpers / None,Upgrade,2,2,225.96,0.00,0.00,225.96,USD,true
+2027-12,Online Store,P049,10313115336985,53147931017497,TR-ALC-TMR-N-N,present_in_shopify,Build Your Own Controller Upgrades,TMR / None / None,Upgrade,6,6,299.94,0.00,0.00,299.94,USD,true
+2027-12,Online Store,P052,10754953019673,52968922743065,PS5-WHT-HE-004,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true
+2027-12,Online Store,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-12,Online Store,P055,10806653845785,53147452932377,,blank_in_shopify,TechRevive Service Add-Ons,Mail-In Kit,Mail-In Kit,16,16,319.84,0.00,0.00,319.84,USD,true
+2027-12,Online Store,P063,,,,not_created_hypothetical_release,Masterpiece Controller - Simulated 2027 Release 02,PS5 DualSense,Masterpiece,1,1,2000.00,0.00,0.00,2000.00,USD,true
+2027-12,eBay,P051,10754952986905,52968922710297,PS5-GPR-001,present_in_shopify,Refurbished PS5 Galactic Purple Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,74.99,0.00,0.00,74.99,USD,true
+2027-12,eBay,P053,10754953085209,52968922808601,PS5-CMO-002,present_in_shopify,Refurbished PS5 Gray Camouflage Controller,Default Title,Refurbished,1,1,59.99,0.00,0.00,59.99,USD,true
+2027-12,eBay,P054,10754955936025,52968936898841,PS5-WHT-HE-003,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,2,2,149.98,0.00,0.00,149.98,USD,true
+2027-12,eBay,P064,10754953052441,52968922775833,PS5-WHT-HE-001,present_in_shopify,Refurbished PS5 Glacier White Controller Hall Effect Joysticks,Default Title,Refurbished,1,1,69.99,0.00,0.00,69.99,USD,true

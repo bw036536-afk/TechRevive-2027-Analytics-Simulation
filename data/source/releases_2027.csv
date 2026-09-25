@@ -1,0 +1,9 @@
+release_id,catalog_entry_id,category,release_date,selling_window_end,quantity_available,unit_price_usd,price_basis,is_synthetic,quantity_sold,quantity_remaining
+PREM-2027-01,P056,Premium,2027-01-01,2027-01-31,15,475.00,owner_approved_simulation_range,true,15,0
+PREM-2027-02,P057,Premium,2027-03-01,2027-03-31,15,350.00,owner_approved_simulation_range,true,15,0
+PREM-2027-03,P058,Premium,2027-05-01,2027-05-31,15,450.00,owner_approved_simulation_range,true,15,0
+PREM-2027-04,P059,Premium,2027-07-01,2027-07-31,15,375.00,owner_approved_simulation_range,true,15,0
+PREM-2027-05,P060,Premium,2027-09-01,2027-09-30,15,500.00,owner_approved_simulation_range,true,15,0
+PREM-2027-06,P061,Premium,2027-11-01,2027-11-30,15,425.00,owner_approved_simulation_range,true,15,0
+MASTER-2027-01,P062,Masterpiece,2027-06-01,2027-06-30,1,1250.00,owner_approved_simulation_range,true,1,0
+MASTER-2027-02,P063,Masterpiece,2027-12-01,2027-12-31,1,2000.00,owner_approved_simulation_range,true,1,0

@@ -1,0 +1,210 @@
+file_name,column_name,suggested_type,blank_allowed,description
+orders_2027.csv,order_id,text,false,"Synthetic order identifier, not a real Shopify order ID. Repeats on lines in the same order. Blank in website_sessions_2027 for visits that did not purchase."
+orders_2027.csv,order_date,date,false,"Synthetic purchase date in 2027, formatted YYYY-MM-DD."
+orders_2027.csv,customer_id,text,false,Fictional customer identifier. Returning customers reuse the same identifier. No real customer data.
+orders_2027.csv,customer_order_number,integer,false,Chronological purchase number for this customer within this dataset only.
+orders_2027.csv,customer_type,text,false,New on first dataset purchase; Returning on later purchases. No pre-2027 history is modeled.
+orders_2027.csv,primary_category,text,false,Category of the main purchase; excludes the optional Mail-In Kit.
+orders_2027.csv,mail_in_method,text,false,Self ship or Mail-In Kit for services; Not applicable for retail controllers.
+orders_2027.csv,order_status,text,false,"Completed for all orders; cancellations, refunds and fulfillment timing are not modeled."
+orders_2027.csv,item_count,integer,false,"Number of item rows in the order, including an optional Mail-In Kit."
+orders_2027.csv,subtotal_usd,"decimal(12,2)",false,"Sum of line_total_usd for this order. Excludes tax, separate shipping charges and costs. Not profit or final checkout total."
+orders_2027.csv,currency,text,false,USD throughout.
+orders_2027.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+orders_2027.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+orders_2027.csv,session_id,text,true,Synthetic identifier for one website visit. Each Online Store order links to one completed session in this simplified scenario. Blank on eBay orders/items because they are not website checkouts.
+orders_2027.csv,device_type,text,true,"Simulated Mobile, Desktop or Tablet device for a website visit. Blank on eBay sales, whose devices were not modeled."
+orders_2027.csv,referrer_source,text,true,"Simulated website traffic source category: Direct, Search, Social or Email. Blank on eBay sales. This is how a visitor arrived, not the sales channel."
+orders_2027.csv,referrer_name,text,true,"Simulated website referrer: Direct, Google, Instagram, Facebook or Email campaign. Blank on eBay sales. Not evidence of an actual marketing campaign."
+orders_2027.csv,channel_assignment_basis,text,false,"owner_approved_simulated_mix throughout orders. Refurbished split approximates 80% eBay and 20% Online Store, rounded to whole orders."
+order_items_2027.csv,order_item_id,text,false,Unique row identifier for an item within an order.
+order_items_2027.csv,order_id,text,false,"Synthetic order identifier, not a real Shopify order ID. Repeats on lines in the same order. Blank in website_sessions_2027 for visits that did not purchase."
+order_items_2027.csv,catalog_entry_id,text,false,"Synthetic key joining this dataset, including hypothetical releases. P-prefixed IDs are not Shopify IDs. One entry per priced variant or release."
+order_items_2027.csv,product_id,text,true,"Actual Shopify product ID, stored as text; blank for hypothetical Premium/Masterpiece releases. Multiple variants can share a product ID."
+order_items_2027.csv,variant_id,text,true,"Actual Shopify variant ID, stored as text; blank for hypothetical releases. This identifies the precise configuration or exact-unit source listing."
+order_items_2027.csv,sku,text,true,"Exact SKU on the current Shopify variant. Blank stays blank if missing in Shopify or if the hypothetical release has not been created. On eBay rows this is the Shopify catalog SKU reference, not independently verified eBay listing metadata."
+order_items_2027.csv,product_title,text,false,Exact current Shopify product title for real entries; explicitly simulated release title otherwise.
+order_items_2027.csv,variant_title,text,false,Exact current Shopify variant title for real entries; simulated platform for hypothetical releases. Repair options are tier / joystick option / controls. Individual upgrades are joystick / mouse-click controls / rear inputs.
+order_items_2027.csv,controller_model,text,false,Controller platform receiving service or sold. Not applicable for Mail-In Kit.
+order_items_2027.csv,quantity,integer,false,Number of sellable units on this line; one throughout. A Joy-Con pair is one service package covering two Joy-Cons.
+order_items_2027.csv,unit_price_usd,"decimal(12,2)",false,Price per unit. Real snapshot price or an explicitly labeled owner-approved simulated price.
+order_items_2027.csv,line_total_usd,"decimal(12,2)",false,quantity multiplied by unit_price_usd. Add this field for sales subtotal analysis.
+order_items_2027.csv,release_id,text,true,Synthetic release identifier for Premium/Masterpiece; blank for other categories. Join to releases_2027.release_id.
+order_items_2027.csv,edition_number,integer,true,Unique copy number within a limited release; blank for other products.
+order_items_2027.csv,simulated_unit_id,text,true,"Unique hypothetical physical unit ID for refurbished, Premium and Masterpiece sales; blank for services/kits."
+order_items_2027.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+products.csv,catalog_entry_id,text,false,"Synthetic key joining this dataset, including hypothetical releases. P-prefixed IDs are not Shopify IDs. One entry per priced variant or release."
+products.csv,product_id,text,true,"Actual Shopify product ID, stored as text; blank for hypothetical Premium/Masterpiece releases. Multiple variants can share a product ID."
+products.csv,variant_id,text,true,"Actual Shopify variant ID, stored as text; blank for hypothetical releases. This identifies the precise configuration or exact-unit source listing."
+products.csv,sku,text,true,"Exact SKU on the current Shopify variant. Blank stays blank if missing in Shopify or if the hypothetical release has not been created. On eBay rows this is the Shopify catalog SKU reference, not independently verified eBay listing metadata."
+products.csv,sku_status,text,false,"present_in_shopify, blank_in_shopify, or not_created_hypothetical_release. Explains whether the SKU exists and why it can be blank."
+products.csv,product_title,text,false,Exact current Shopify product title for real entries; explicitly simulated release title otherwise.
+products.csv,variant_title,text,false,Exact current Shopify variant title for real entries; simulated platform for hypothetical releases. Repair options are tier / joystick option / controls. Individual upgrades are joystick / mouse-click controls / rear inputs.
+products.csv,product_handle,text,true,"Exact current Shopify product handle, the last portion of its product URL. Blank for hypothetical releases."
+products.csv,vendor,text,true,Exact Shopify vendor field for real entries. Blank for releases that do not exist in Shopify.
+products.csv,shopify_product_type,text,true,"Exact Shopify productType field, including genuine blanks. Separate from the analysis grouping fields."
+products.csv,product_status,text,false,Current Shopify status for the real source entry; SIMULATED for hypothetical releases. This is not future stock availability.
+products.csv,analysis_category,text,false,"Custom analysis grouping: Repair, Upgrade, Refurbished, Premium, Masterpiece or Mail-In Kit. It is not a claimed Shopify taxonomy field."
+products.csv,analysis_product_type,text,false,"Custom analysis grouping such as Repair service, Individual upgrades, Upgrade bundle or Refurbished controller. It is not the source Shopify productType field."
+products.csv,catalog_price_usd,"decimal(12,2)",false,Price held constant throughout this scenario for this catalog entry.
+products.csv,currency,text,false,USD throughout.
+products.csv,price_basis,text,false,verified_site_price or owner_approved_simulation_range. Never interpret the latter as a published site price.
+products.csv,price_checked_date,date,true,Date the real catalog price was checked. Blank for hypothetical release prices.
+products.csv,source_url,text,false,Public page supporting the real price or product concept. Premium/Masterpiece pages do not publish prices.
+products.csv,source_note,text,false,Scope and limitations of the price reference.
+products.csv,repair_tier,text,false,"Basic, Standard or Full Tech Revival for repair services. Not applicable for other products."
+products.csv,joystick_upgrade,text,false,"Hall Effect or TMR selected in the service configuration; None if not selected. Not applicable for retail controllers and kits; this field describes service selection, not all installed retail hardware."
+products.csv,mouse_click_upgrade,text,false,"Selected mouse-click controls, None if not selected, or Not applicable for retail controllers and kits."
+products.csv,rear_input_upgrade,text,false,"Selected rear-input option, None if not selected, or Not applicable for retail controllers and kits."
+releases_2027.csv,release_id,text,false,Synthetic release identifier for Premium/Masterpiece; blank for other categories. Join to releases_2027.release_id.
+releases_2027.csv,catalog_entry_id,text,false,"Synthetic key joining this dataset, including hypothetical releases. P-prefixed IDs are not Shopify IDs. One entry per priced variant or release."
+releases_2027.csv,category,text,false,"Repair, Upgrade, Refurbished, Premium, Masterpiece or Mail-In Kit."
+releases_2027.csv,release_date,date,false,Assumed first date units can sell. Not an announced real release date.
+releases_2027.csv,selling_window_end,date,false,Assumed final date in that release month. Every release sells out in this scenario.
+releases_2027.csv,quantity_available,integer,false,Simulated cap: 15 per Premium release and one per Masterpiece release.
+releases_2027.csv,unit_price_usd,"decimal(12,2)",false,Price per unit. Real snapshot price or an explicitly labeled owner-approved simulated price.
+releases_2027.csv,price_basis,text,false,verified_site_price or owner_approved_simulation_range. Never interpret the latter as a published site price.
+releases_2027.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+releases_2027.csv,quantity_sold,integer,false,Quantity sold in the synthetic transactions for this release.
+releases_2027.csv,quantity_remaining,integer,false,quantity_available minus quantity_sold. Zero for this sell-out scenario.
+sales_2027_flat.csv,order_item_id,text,false,Unique row identifier for an item within an order.
+sales_2027_flat.csv,order_id,text,false,"Synthetic order identifier, not a real Shopify order ID. Repeats on lines in the same order. Blank in website_sessions_2027 for visits that did not purchase."
+sales_2027_flat.csv,order_date,date,false,"Synthetic purchase date in 2027, formatted YYYY-MM-DD."
+sales_2027_flat.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+sales_2027_flat.csv,customer_id,text,false,Fictional customer identifier. Returning customers reuse the same identifier. No real customer data.
+sales_2027_flat.csv,customer_type,text,false,New on first dataset purchase; Returning on later purchases. No pre-2027 history is modeled.
+sales_2027_flat.csv,catalog_entry_id,text,false,"Synthetic key joining this dataset, including hypothetical releases. P-prefixed IDs are not Shopify IDs. One entry per priced variant or release."
+sales_2027_flat.csv,product_id,text,true,"Actual Shopify product ID, stored as text; blank for hypothetical Premium/Masterpiece releases. Multiple variants can share a product ID."
+sales_2027_flat.csv,variant_id,text,true,"Actual Shopify variant ID, stored as text; blank for hypothetical releases. This identifies the precise configuration or exact-unit source listing."
+sales_2027_flat.csv,sku,text,true,"Exact SKU on the current Shopify variant. Blank stays blank if missing in Shopify or if the hypothetical release has not been created. On eBay rows this is the Shopify catalog SKU reference, not independently verified eBay listing metadata."
+sales_2027_flat.csv,sku_status,text,false,"present_in_shopify, blank_in_shopify, or not_created_hypothetical_release. Explains whether the SKU exists and why it can be blank."
+sales_2027_flat.csv,product_title,text,false,Exact current Shopify product title for real entries; explicitly simulated release title otherwise.
+sales_2027_flat.csv,variant_title,text,false,Exact current Shopify variant title for real entries; simulated platform for hypothetical releases. Repair options are tier / joystick option / controls. Individual upgrades are joystick / mouse-click controls / rear inputs.
+sales_2027_flat.csv,analysis_category,text,false,"Custom analysis grouping: Repair, Upgrade, Refurbished, Premium, Masterpiece or Mail-In Kit. It is not a claimed Shopify taxonomy field."
+sales_2027_flat.csv,analysis_product_type,text,false,"Custom analysis grouping such as Repair service, Individual upgrades, Upgrade bundle or Refurbished controller. It is not the source Shopify productType field."
+sales_2027_flat.csv,repair_tier,text,false,"Basic, Standard or Full Tech Revival for repair services. Not applicable for other products."
+sales_2027_flat.csv,joystick_upgrade,text,false,"Hall Effect or TMR selected in the service configuration; None if not selected. Not applicable for retail controllers and kits; this field describes service selection, not all installed retail hardware."
+sales_2027_flat.csv,mouse_click_upgrade,text,false,"Selected mouse-click controls, None if not selected, or Not applicable for retail controllers and kits."
+sales_2027_flat.csv,rear_input_upgrade,text,false,"Selected rear-input option, None if not selected, or Not applicable for retail controllers and kits."
+sales_2027_flat.csv,controller_model,text,false,Controller platform receiving service or sold. Not applicable for Mail-In Kit.
+sales_2027_flat.csv,quantity,integer,false,Number of sellable units on this line; one throughout. A Joy-Con pair is one service package covering two Joy-Cons.
+sales_2027_flat.csv,unit_price_usd,"decimal(12,2)",false,Price per unit. Real snapshot price or an explicitly labeled owner-approved simulated price.
+sales_2027_flat.csv,line_total_usd,"decimal(12,2)",false,quantity multiplied by unit_price_usd. Add this field for sales subtotal analysis.
+sales_2027_flat.csv,currency,text,false,USD throughout.
+sales_2027_flat.csv,mail_in_method,text,false,Self ship or Mail-In Kit for services; Not applicable for retail controllers.
+sales_2027_flat.csv,session_id,text,true,Synthetic identifier for one website visit. Each Online Store order links to one completed session in this simplified scenario. Blank on eBay orders/items because they are not website checkouts.
+sales_2027_flat.csv,device_type,text,true,"Simulated Mobile, Desktop or Tablet device for a website visit. Blank on eBay sales, whose devices were not modeled."
+sales_2027_flat.csv,referrer_source,text,true,"Simulated website traffic source category: Direct, Search, Social or Email. Blank on eBay sales. This is how a visitor arrived, not the sales channel."
+sales_2027_flat.csv,referrer_name,text,true,"Simulated website referrer: Direct, Google, Instagram, Facebook or Email campaign. Blank on eBay sales. Not evidence of an actual marketing campaign."
+sales_2027_flat.csv,release_id,text,true,Synthetic release identifier for Premium/Masterpiece; blank for other categories. Join to releases_2027.release_id.
+sales_2027_flat.csv,edition_number,integer,true,Unique copy number within a limited release; blank for other products.
+sales_2027_flat.csv,simulated_unit_id,text,true,"Unique hypothetical physical unit ID for refurbished, Premium and Masterpiece sales; blank for services/kits."
+sales_2027_flat.csv,price_basis,text,false,verified_site_price or owner_approved_simulation_range. Never interpret the latter as a published site price.
+sales_2027_flat.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+website_sessions_2027.csv,session_id,text,false,Synthetic identifier for one website visit. Each Online Store order links to one completed session in this simplified scenario. Blank on eBay orders/items because they are not website checkouts.
+website_sessions_2027.csv,date,date,false,"Calendar date of the simulated website session or daily traffic report, YYYY-MM-DD. Grouped in America/New_York local dates; no cross-midnight sessions modeled."
+website_sessions_2027.csv,visitor_id,text,false,Synthetic browser/visitor identifier. A visitor may have multiple sessions. It is not a Shopify customer ID or real personal data.
+website_sessions_2027.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+website_sessions_2027.csv,device_type,text,false,"Simulated Mobile, Desktop or Tablet device for a website visit. Blank on eBay sales, whose devices were not modeled."
+website_sessions_2027.csv,referrer_source,text,false,"Simulated website traffic source category: Direct, Search, Social or Email. Blank on eBay sales. This is how a visitor arrived, not the sales channel."
+website_sessions_2027.csv,referrer_name,text,false,"Simulated website referrer: Direct, Google, Instagram, Facebook or Email campaign. Blank on eBay sales. Not evidence of an actual marketing campaign."
+website_sessions_2027.csv,pageviews,integer,false,Number of page views in the session or report group. A single session can contain several page views. Do not use pageviews as the Shopify conversion denominator.
+website_sessions_2027.csv,added_to_cart,boolean,false,True if the simulated website session added a product to cart at least once; otherwise false.
+website_sessions_2027.csv,reached_checkout,boolean,false,True if the simulated website session reached checkout; otherwise false.
+website_sessions_2027.csv,completed_checkout,boolean,false,True if the simulated website session placed an order; otherwise false. Each completed session has exactly one Online Store order in this scenario.
+website_sessions_2027.csv,order_id,text,true,"Synthetic order identifier, not a real Shopify order ID. Repeats on lines in the same order. Blank in website_sessions_2027 for visits that did not purchase."
+website_sessions_2027.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+website_traffic_daily_2027.csv,date,date,false,"Calendar date of the simulated website session or daily traffic report, YYYY-MM-DD. Grouped in America/New_York local dates; no cross-midnight sessions modeled."
+website_traffic_daily_2027.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+website_traffic_daily_2027.csv,sessions,integer,false,Number of distinct website sessions in this report group. Use as the denominator for online-store conversion rate.
+website_traffic_daily_2027.csv,online_store_visitors,integer,false,Number of distinct visitor_id values within this row's group. Visitors can repeat across dates/devices/referrers; do not sum grouped visitor counts to get an overall unique count.
+website_traffic_daily_2027.csv,pageviews,integer,false,Number of page views in the session or report group. A single session can contain several page views. Do not use pageviews as the Shopify conversion denominator.
+website_traffic_daily_2027.csv,sessions_with_cart_additions,integer,false,"Count of sessions whose added_to_cart flag is true. Counts sessions, not products or cart-add events."
+website_traffic_daily_2027.csv,sessions_that_reached_checkout,integer,false,Count of sessions whose reached_checkout flag is true.
+website_traffic_daily_2027.csv,sessions_that_completed_checkout,integer,false,Count of sessions whose completed_checkout flag is true. Includes only Online Store purchases; excludes eBay. Not generally identical to orders in real Shopify data.
+website_traffic_daily_2027.csv,conversion_rate_pct,"decimal(9,4)",false,"100 * sessions_that_completed_checkout / sessions. Stored as percentage points, so 2.5 means 2.5%. Aggregate counts first and then divide; do not average daily percentages."
+website_traffic_daily_2027.csv,add_to_cart_rate_pct,"decimal(9,4)",false,100 * sessions_with_cart_additions / sessions. Stored as percentage points.
+website_traffic_daily_2027.csv,reached_checkout_rate_pct,"decimal(9,4)",false,100 * sessions_that_reached_checkout / sessions. Stored as percentage points.
+website_traffic_daily_2027.csv,checkout_completion_rate_pct,"decimal(9,4)",true,100 * sessions_that_completed_checkout / sessions_that_reached_checkout. Stored as percentage points; blank if no sessions reached checkout.
+website_traffic_daily_2027.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+reports/sales_over_time.csv,month,text,false,"Calendar month, YYYY-MM. Each monthly report row groups records within this month."
+reports/sales_over_time.csv,orders,integer,false,Number of distinct orders in this report group. SKU report counts overlap across products when an order includes a kit; do not sum SKU-level order counts for total orders.
+reports/sales_over_time.csv,net_quantity,integer,false,Units sold minus reversed units in this report group. Reversed units are zero in this scenario. Includes Mail-In Kits as units; does not mean controllers only.
+reports/sales_over_time.csv,gross_sales_usd,"decimal(12,2)",false,"Sum of product price times quantity before discounts and sales reversals, excluding taxes and shipping."
+reports/sales_over_time.csv,discounts_usd,"decimal(12,2)",false,"Discount amount to subtract from gross sales, in USD. Assumed zero throughout; no real discount behavior inferred."
+reports/sales_over_time.csv,sales_reversals_usd,"decimal(12,2)",false,"Sales reversal amount to subtract from gross sales, in USD. Assumed zero throughout; no returns, cancellations or post-order changes modeled."
+reports/sales_over_time.csv,net_sales_usd,"decimal(12,2)",false,"gross_sales_usd minus discounts_usd minus sales_reversals_usd. Excludes shipping, tax, fees and costs. Not profit."
+reports/sales_over_time.csv,average_order_value_usd,"decimal(12,2)",false,(gross_sales_usd - discounts_usd) / distinct orders in this group. No post-order adjustments are modeled. Do not average group AOVs without order-count weighting.
+reports/sales_over_time.csv,currency,text,false,USD throughout.
+reports/sales_over_time.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+reports/sales_by_channel.csv,month,text,false,"Calendar month, YYYY-MM. Each monthly report row groups records within this month."
+reports/sales_by_channel.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+reports/sales_by_channel.csv,orders,integer,false,Number of distinct orders in this report group. SKU report counts overlap across products when an order includes a kit; do not sum SKU-level order counts for total orders.
+reports/sales_by_channel.csv,net_quantity,integer,false,Units sold minus reversed units in this report group. Reversed units are zero in this scenario. Includes Mail-In Kits as units; does not mean controllers only.
+reports/sales_by_channel.csv,gross_sales_usd,"decimal(12,2)",false,"Sum of product price times quantity before discounts and sales reversals, excluding taxes and shipping."
+reports/sales_by_channel.csv,discounts_usd,"decimal(12,2)",false,"Discount amount to subtract from gross sales, in USD. Assumed zero throughout; no real discount behavior inferred."
+reports/sales_by_channel.csv,sales_reversals_usd,"decimal(12,2)",false,"Sales reversal amount to subtract from gross sales, in USD. Assumed zero throughout; no returns, cancellations or post-order changes modeled."
+reports/sales_by_channel.csv,net_sales_usd,"decimal(12,2)",false,"gross_sales_usd minus discounts_usd minus sales_reversals_usd. Excludes shipping, tax, fees and costs. Not profit."
+reports/sales_by_channel.csv,average_order_value_usd,"decimal(12,2)",false,(gross_sales_usd - discounts_usd) / distinct orders in this group. No post-order adjustments are modeled. Do not average group AOVs without order-count weighting.
+reports/sales_by_channel.csv,currency,text,false,USD throughout.
+reports/sales_by_channel.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+reports/sales_by_variant_sku.csv,month,text,false,"Calendar month, YYYY-MM. Each monthly report row groups records within this month."
+reports/sales_by_variant_sku.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+reports/sales_by_variant_sku.csv,catalog_entry_id,text,false,"Synthetic key joining this dataset, including hypothetical releases. P-prefixed IDs are not Shopify IDs. One entry per priced variant or release."
+reports/sales_by_variant_sku.csv,product_id,text,true,"Actual Shopify product ID, stored as text; blank for hypothetical Premium/Masterpiece releases. Multiple variants can share a product ID."
+reports/sales_by_variant_sku.csv,variant_id,text,true,"Actual Shopify variant ID, stored as text; blank for hypothetical releases. This identifies the precise configuration or exact-unit source listing."
+reports/sales_by_variant_sku.csv,sku,text,true,"Exact SKU on the current Shopify variant. Blank stays blank if missing in Shopify or if the hypothetical release has not been created. On eBay rows this is the Shopify catalog SKU reference, not independently verified eBay listing metadata."
+reports/sales_by_variant_sku.csv,sku_status,text,false,"present_in_shopify, blank_in_shopify, or not_created_hypothetical_release. Explains whether the SKU exists and why it can be blank."
+reports/sales_by_variant_sku.csv,product_title,text,false,Exact current Shopify product title for real entries; explicitly simulated release title otherwise.
+reports/sales_by_variant_sku.csv,variant_title,text,false,Exact current Shopify variant title for real entries; simulated platform for hypothetical releases. Repair options are tier / joystick option / controls. Individual upgrades are joystick / mouse-click controls / rear inputs.
+reports/sales_by_variant_sku.csv,analysis_category,text,false,"Custom analysis grouping: Repair, Upgrade, Refurbished, Premium, Masterpiece or Mail-In Kit. It is not a claimed Shopify taxonomy field."
+reports/sales_by_variant_sku.csv,orders,integer,false,Number of distinct orders in this report group. SKU report counts overlap across products when an order includes a kit; do not sum SKU-level order counts for total orders.
+reports/sales_by_variant_sku.csv,net_quantity,integer,false,Units sold minus reversed units in this report group. Reversed units are zero in this scenario. Includes Mail-In Kits as units; does not mean controllers only.
+reports/sales_by_variant_sku.csv,gross_sales_usd,"decimal(12,2)",false,"Sum of product price times quantity before discounts and sales reversals, excluding taxes and shipping."
+reports/sales_by_variant_sku.csv,discounts_usd,"decimal(12,2)",false,"Discount amount to subtract from gross sales, in USD. Assumed zero throughout; no real discount behavior inferred."
+reports/sales_by_variant_sku.csv,sales_reversals_usd,"decimal(12,2)",false,"Sales reversal amount to subtract from gross sales, in USD. Assumed zero throughout; no returns, cancellations or post-order changes modeled."
+reports/sales_by_variant_sku.csv,net_sales_usd,"decimal(12,2)",false,"gross_sales_usd minus discounts_usd minus sales_reversals_usd. Excludes shipping, tax, fees and costs. Not profit."
+reports/sales_by_variant_sku.csv,currency,text,false,USD throughout.
+reports/sales_by_variant_sku.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+reports/conversion_over_time.csv,month,text,false,"Calendar month, YYYY-MM. Each monthly report row groups records within this month."
+reports/conversion_over_time.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+reports/conversion_over_time.csv,sessions,integer,false,Number of distinct website sessions in this report group. Use as the denominator for online-store conversion rate.
+reports/conversion_over_time.csv,online_store_visitors,integer,false,Number of distinct visitor_id values within this row's group. Visitors can repeat across dates/devices/referrers; do not sum grouped visitor counts to get an overall unique count.
+reports/conversion_over_time.csv,pageviews,integer,false,Number of page views in the session or report group. A single session can contain several page views. Do not use pageviews as the Shopify conversion denominator.
+reports/conversion_over_time.csv,sessions_with_cart_additions,integer,false,"Count of sessions whose added_to_cart flag is true. Counts sessions, not products or cart-add events."
+reports/conversion_over_time.csv,sessions_that_reached_checkout,integer,false,Count of sessions whose reached_checkout flag is true.
+reports/conversion_over_time.csv,sessions_that_completed_checkout,integer,false,Count of sessions whose completed_checkout flag is true. Includes only Online Store purchases; excludes eBay. Not generally identical to orders in real Shopify data.
+reports/conversion_over_time.csv,conversion_rate_pct,"decimal(9,4)",false,"100 * sessions_that_completed_checkout / sessions. Stored as percentage points, so 2.5 means 2.5%. Aggregate counts first and then divide; do not average daily percentages."
+reports/conversion_over_time.csv,add_to_cart_rate_pct,"decimal(9,4)",false,100 * sessions_with_cart_additions / sessions. Stored as percentage points.
+reports/conversion_over_time.csv,reached_checkout_rate_pct,"decimal(9,4)",false,100 * sessions_that_reached_checkout / sessions. Stored as percentage points.
+reports/conversion_over_time.csv,checkout_completion_rate_pct,"decimal(9,4)",false,100 * sessions_that_completed_checkout / sessions_that_reached_checkout. Stored as percentage points; blank if no sessions reached checkout.
+reports/conversion_over_time.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+reports/sessions_by_device.csv,month,text,false,"Calendar month, YYYY-MM. Each monthly report row groups records within this month."
+reports/sessions_by_device.csv,device_type,text,false,"Simulated Mobile, Desktop or Tablet device for a website visit. Blank on eBay sales, whose devices were not modeled."
+reports/sessions_by_device.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+reports/sessions_by_device.csv,sessions,integer,false,Number of distinct website sessions in this report group. Use as the denominator for online-store conversion rate.
+reports/sessions_by_device.csv,online_store_visitors,integer,false,Number of distinct visitor_id values within this row's group. Visitors can repeat across dates/devices/referrers; do not sum grouped visitor counts to get an overall unique count.
+reports/sessions_by_device.csv,pageviews,integer,false,Number of page views in the session or report group. A single session can contain several page views. Do not use pageviews as the Shopify conversion denominator.
+reports/sessions_by_device.csv,sessions_with_cart_additions,integer,false,"Count of sessions whose added_to_cart flag is true. Counts sessions, not products or cart-add events."
+reports/sessions_by_device.csv,sessions_that_reached_checkout,integer,false,Count of sessions whose reached_checkout flag is true.
+reports/sessions_by_device.csv,sessions_that_completed_checkout,integer,false,Count of sessions whose completed_checkout flag is true. Includes only Online Store purchases; excludes eBay. Not generally identical to orders in real Shopify data.
+reports/sessions_by_device.csv,conversion_rate_pct,"decimal(9,4)",false,"100 * sessions_that_completed_checkout / sessions. Stored as percentage points, so 2.5 means 2.5%. Aggregate counts first and then divide; do not average daily percentages."
+reports/sessions_by_device.csv,add_to_cart_rate_pct,"decimal(9,4)",false,100 * sessions_with_cart_additions / sessions. Stored as percentage points.
+reports/sessions_by_device.csv,reached_checkout_rate_pct,"decimal(9,4)",false,100 * sessions_that_reached_checkout / sessions. Stored as percentage points.
+reports/sessions_by_device.csv,checkout_completion_rate_pct,"decimal(9,4)",false,100 * sessions_that_completed_checkout / sessions_that_reached_checkout. Stored as percentage points; blank if no sessions reached checkout.
+reports/sessions_by_device.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."
+reports/sessions_by_referrer.csv,month,text,false,"Calendar month, YYYY-MM. Each monthly report row groups records within this month."
+reports/sessions_by_referrer.csv,referrer_source,text,false,"Simulated website traffic source category: Direct, Search, Social or Email. Blank on eBay sales. This is how a visitor arrived, not the sales channel."
+reports/sessions_by_referrer.csv,referrer_name,text,false,"Simulated website referrer: Direct, Google, Instagram, Facebook or Email campaign. Blank on eBay sales. Not evidence of an actual marketing campaign."
+reports/sessions_by_referrer.csv,sales_channel,text,false,"Where the simulated purchase occurred: Online Store or eBay. Website traffic contains only Online Store. eBay is an owner-approved scenario label, not a verified Shopify connector/app name."
+reports/sessions_by_referrer.csv,sessions,integer,false,Number of distinct website sessions in this report group. Use as the denominator for online-store conversion rate.
+reports/sessions_by_referrer.csv,online_store_visitors,integer,false,Number of distinct visitor_id values within this row's group. Visitors can repeat across dates/devices/referrers; do not sum grouped visitor counts to get an overall unique count.
+reports/sessions_by_referrer.csv,pageviews,integer,false,Number of page views in the session or report group. A single session can contain several page views. Do not use pageviews as the Shopify conversion denominator.
+reports/sessions_by_referrer.csv,sessions_with_cart_additions,integer,false,"Count of sessions whose added_to_cart flag is true. Counts sessions, not products or cart-add events."
+reports/sessions_by_referrer.csv,sessions_that_reached_checkout,integer,false,Count of sessions whose reached_checkout flag is true.
+reports/sessions_by_referrer.csv,sessions_that_completed_checkout,integer,false,Count of sessions whose completed_checkout flag is true. Includes only Online Store purchases; excludes eBay. Not generally identical to orders in real Shopify data.
+reports/sessions_by_referrer.csv,conversion_rate_pct,"decimal(9,4)",false,"100 * sessions_that_completed_checkout / sessions. Stored as percentage points, so 2.5 means 2.5%. Aggregate counts first and then divide; do not average daily percentages."
+reports/sessions_by_referrer.csv,add_to_cart_rate_pct,"decimal(9,4)",false,100 * sessions_with_cart_additions / sessions. Stored as percentage points.
+reports/sessions_by_referrer.csv,reached_checkout_rate_pct,"decimal(9,4)",false,100 * sessions_that_reached_checkout / sessions. Stored as percentage points.
+reports/sessions_by_referrer.csv,checkout_completion_rate_pct,"decimal(9,4)",false,100 * sessions_that_completed_checkout / sessions_that_reached_checkout. Stored as percentage points; blank if no sessions reached checkout.
+reports/sessions_by_referrer.csv,is_synthetic,boolean,false,"True on generated sales, traffic and report records. Catalog fields may be real, but transactions and activity are fictional."

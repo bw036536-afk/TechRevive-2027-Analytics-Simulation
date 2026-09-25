@@ -1,0 +1,13 @@
+month,sales_channel,sessions,online_store_visitors,pageviews,sessions_with_cart_additions,sessions_that_reached_checkout,sessions_that_completed_checkout,conversion_rate_pct,add_to_cart_rate_pct,reached_checkout_rate_pct,checkout_completion_rate_pct,is_synthetic
+2027-01,Online Store,1456,1211,3542,149,89,40,2.7473,10.2335,6.1126,44.9438,true
+2027-02,Online Store,1104,1040,2652,109,57,18,1.6304,9.8732,5.1630,31.5789,true
+2027-03,Online Store,1397,1322,3351,134,73,35,2.5054,9.5920,5.2255,47.9452,true
+2027-04,Online Store,1246,1212,3010,118,65,23,1.8459,9.4703,5.2167,35.3846,true
+2027-05,Online Store,1461,1425,3664,163,105,35,2.3956,11.1567,7.1869,33.3333,true
+2027-06,Online Store,1403,1374,3395,131,79,30,2.1383,9.3371,5.6308,37.9747,true
+2027-07,Online Store,1597,1565,4056,175,104,45,2.8178,10.9580,6.5122,43.2692,true
+2027-08,Online Store,1522,1506,3727,142,88,27,1.7740,9.3298,5.7819,30.6818,true
+2027-09,Online Store,1616,1585,3922,149,88,37,2.2896,9.2203,5.4455,42.0455,true
+2027-10,Online Store,1835,1815,4492,182,91,30,1.6349,9.9183,4.9591,32.9670,true
+2027-11,Online Store,1958,1934,4811,189,109,52,2.6558,9.6527,5.5669,47.7064,true
+2027-12,Online Store,2252,2227,5515,216,127,50,2.2202,9.5915,5.6394,39.3701,true

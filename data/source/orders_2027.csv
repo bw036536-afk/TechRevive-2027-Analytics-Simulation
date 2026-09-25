@@ -1,0 +1,501 @@
+order_id,order_date,customer_id,customer_order_number,customer_type,primary_category,mail_in_method,order_status,item_count,subtotal_usd,currency,is_synthetic,sales_channel,session_id,device_type,referrer_source,referrer_name,channel_assignment_basis
+SIM-2027-0001,2027-01-01,C0001,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S000014,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0002,2027-01-02,C0001,2,Returning,Repair,Self ship,Completed,1,121.98,USD,true,Online Store,SIM-S000084,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0003,2027-01-02,C0002,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000062,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0004,2027-01-03,C0003,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0005,2027-01-03,C0002,2,Returning,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000138,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0006,2027-01-04,C0002,3,Returning,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S000164,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0007,2027-01-04,C0001,3,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0008,2027-01-04,C0004,1,New,Repair,Self ship,Completed,1,114.98,USD,true,Online Store,SIM-S000155,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0009,2027-01-05,C0005,1,New,Repair,Self ship,Completed,1,149.97,USD,true,Online Store,SIM-S000187,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0010,2027-01-06,C0006,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,Online Store,SIM-S000242,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0011,2027-01-07,C0007,1,New,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S000276,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0012,2027-01-07,C0008,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000296,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0013,2027-01-07,C0009,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0014,2027-01-07,C0010,1,New,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S000255,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0015,2027-01-09,C0011,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S000395,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0016,2027-01-10,C0012,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S000450,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0017,2027-01-10,C0013,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000418,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0018,2027-01-12,C0014,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000510,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0019,2027-01-12,C0015,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S000514,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0020,2027-01-13,C0008,2,Returning,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0021,2027-01-16,C0016,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,Online Store,SIM-S000721,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0022,2027-01-16,C0007,2,Returning,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S000664,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0023,2027-01-17,C0017,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000756,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0024,2027-01-17,C0018,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S000759,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0025,2027-01-18,C0019,1,New,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S000797,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0026,2027-01-18,C0020,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S000808,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0027,2027-01-19,C0021,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000876,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0028,2027-01-20,C0022,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000900,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0029,2027-01-20,C0020,2,Returning,Upgrade,Mail-In Kit,Completed,2,62.98,USD,true,Online Store,SIM-S000907,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0030,2027-01-21,C0022,2,Returning,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S000974,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0031,2027-01-22,C0016,2,Returning,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S001019,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0032,2027-01-23,C0020,3,Returning,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S001030,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0033,2027-01-24,C0016,3,Returning,Repair,Self ship,Completed,1,109.98,USD,true,Online Store,SIM-S001104,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0034,2027-01-25,C0023,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S001167,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0035,2027-01-26,C0024,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S001185,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0036,2027-01-26,C0025,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S001241,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0037,2027-01-27,C0011,2,Returning,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S001278,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0038,2027-01-27,C0026,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S001279,Tablet,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0039,2027-01-27,C0027,1,New,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S001268,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0040,2027-01-29,C0028,1,New,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S001359,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0041,2027-01-29,C0029,1,New,Premium,Not applicable,Completed,1,475.00,USD,true,Online Store,SIM-S001364,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0042,2027-01-29,C0030,1,New,Upgrade,Self ship,Completed,1,69.99,USD,true,Online Store,SIM-S001332,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0043,2027-01-29,C0031,1,New,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S001340,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0044,2027-01-31,C0032,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S001418,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0045,2027-01-31,C0021,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0046,2027-02-03,C0010,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S001554,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0047,2027-02-04,C0033,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S001601,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0048,2027-02-05,C0025,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S001624,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0049,2027-02-06,C0034,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S001666,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0050,2027-02-07,C0011,3,Returning,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S001728,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0051,2027-02-10,C0019,2,Returning,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0052,2027-02-12,C0035,1,New,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S001931,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0053,2027-02-14,C0036,1,New,Repair,Self ship,Completed,1,134.98,USD,true,Online Store,SIM-S002029,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0054,2027-02-15,C0030,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0055,2027-02-17,C0037,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S002133,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0056,2027-02-18,C0038,1,New,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S002176,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0057,2027-02-20,C0018,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S002239,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0058,2027-02-22,C0039,1,New,Repair,Mail-In Kit,Completed,2,96.97,USD,true,Online Store,SIM-S002336,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0059,2027-02-23,C0040,1,New,Repair,Self ship,Completed,1,29.99,USD,true,Online Store,SIM-S002376,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0060,2027-02-23,C0041,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S002367,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0061,2027-02-25,C0011,4,Returning,Repair,Mail-In Kit,Completed,2,154.97,USD,true,Online Store,SIM-S002439,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0062,2027-02-25,C0042,1,New,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S002447,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0063,2027-02-25,C0043,1,New,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S002432,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0064,2027-02-26,C0044,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0065,2027-02-26,C0045,1,New,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S002484,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0066,2027-02-27,C0046,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0067,2027-02-27,C0034,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0068,2027-02-28,C0047,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S002523,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0069,2027-03-02,C0048,1,New,Repair,Mail-In Kit,Completed,2,73.97,USD,true,Online Store,SIM-S002638,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0070,2027-03-04,C0049,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S002741,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0071,2027-03-05,C0021,3,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0072,2027-03-07,C0050,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S002840,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0073,2027-03-07,C0051,1,New,Repair,Self ship,Completed,1,156.97,USD,true,Online Store,SIM-S002839,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0074,2027-03-08,C0052,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S002899,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0075,2027-03-08,C0053,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S002894,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0076,2027-03-09,C0038,2,Returning,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S002950,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0077,2027-03-09,C0036,2,Returning,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S002939,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0078,2027-03-10,C0042,2,Returning,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S002990,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0079,2027-03-10,C0054,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S002993,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0080,2027-03-11,C0055,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003044,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0081,2027-03-11,C0056,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S003033,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0082,2027-03-13,C0057,1,New,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S003139,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0083,2027-03-14,C0030,3,Returning,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S003198,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0084,2027-03-15,C0058,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003274,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0085,2027-03-17,C0032,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S003330,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0086,2027-03-18,C0059,1,New,Repair,Mail-In Kit,Completed,2,94.98,USD,true,Online Store,SIM-S003406,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0087,2027-03-18,C0058,2,Returning,Repair,Mail-In Kit,Completed,2,141.97,USD,true,Online Store,SIM-S003372,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0088,2027-03-19,C0060,1,New,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S003438,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0089,2027-03-19,C0061,1,New,Upgrade,Self ship,Completed,1,244.97,USD,true,Online Store,SIM-S003431,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0090,2027-03-20,C0047,2,Returning,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003453,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0091,2027-03-20,C0062,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003474,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0092,2027-03-20,C0063,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003458,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0093,2027-03-22,C0043,2,Returning,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003536,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0094,2027-03-24,C0064,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S003646,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0095,2027-03-25,C0065,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003656,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0096,2027-03-26,C0044,2,Returning,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S003720,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0097,2027-03-27,C0066,1,New,Repair,Self ship,Completed,1,134.98,USD,true,Online Store,SIM-S003753,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0098,2027-03-29,C0057,2,Returning,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003860,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0099,2027-03-29,C0067,1,New,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003840,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0100,2027-03-30,C0011,5,Returning,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003884,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0101,2027-03-30,C0043,3,Returning,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S003909,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0102,2027-03-30,C0068,1,New,Upgrade,Self ship,Completed,1,244.97,USD,true,Online Store,SIM-S003894,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0103,2027-03-31,C0069,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S003938,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0104,2027-03-31,C0069,2,Returning,Premium,Not applicable,Completed,1,350.00,USD,true,Online Store,SIM-S003922,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0105,2027-04-01,C0070,1,New,Repair,Self ship,Completed,1,121.98,USD,true,Online Store,SIM-S003962,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0106,2027-04-05,C0071,1,New,Repair,Mail-In Kit,Completed,2,73.97,USD,true,Online Store,SIM-S004165,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0107,2027-04-05,C0072,1,New,Upgrade,Mail-In Kit,Completed,2,62.98,USD,true,Online Store,SIM-S004187,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0108,2027-04-06,C0043,4,Returning,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S004213,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0109,2027-04-06,C0073,1,New,Upgrade,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S004227,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0110,2027-04-10,C0074,1,New,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S004367,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0111,2027-04-10,C0075,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S004368,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0112,2027-04-11,C0076,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S004418,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0113,2027-04-12,C0077,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S004450,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0114,2027-04-13,C0078,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0115,2027-04-14,C0007,3,Returning,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S004530,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0116,2027-04-14,C0076,2,Returning,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S004542,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0117,2027-04-15,C0079,1,New,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S004596,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0118,2027-04-16,C0038,3,Returning,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S004634,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0119,2027-04-16,C0080,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S004629,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0120,2027-04-17,C0081,1,New,Repair,Self ship,Completed,1,134.98,USD,true,Online Store,SIM-S004671,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0121,2027-04-22,C0082,1,New,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S004902,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0122,2027-04-24,C0050,2,Returning,Repair,Mail-In Kit,Completed,2,89.97,USD,true,Online Store,SIM-S004959,Tablet,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0123,2027-04-24,C0083,1,New,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S004966,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0124,2027-04-24,C0084,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0125,2027-04-25,C0085,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S005003,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0126,2027-04-26,C0050,3,Returning,Upgrade,Self ship,Completed,1,69.99,USD,true,Online Store,SIM-S005017,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0127,2027-04-28,C0086,1,New,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S005091,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0128,2027-04-28,C0087,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0129,2027-04-29,C0088,1,New,Upgrade,Mail-In Kit,Completed,2,132.97,USD,true,Online Store,SIM-S005125,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0130,2027-04-29,C0089,1,New,Repair,Mail-In Kit,Completed,2,129.97,USD,true,Online Store,SIM-S005133,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0131,2027-05-03,C0082,2,Returning,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005302,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0132,2027-05-03,C0051,2,Returning,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005317,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0133,2027-05-03,C0090,1,New,Repair,Self ship,Completed,1,109.98,USD,true,Online Store,SIM-S005309,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0134,2027-05-05,C0027,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0135,2027-05-05,C0091,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0136,2027-05-05,C0092,1,New,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S005426,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0137,2027-05-07,C0093,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S005502,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0138,2027-05-08,C0094,1,New,Repair,Self ship,Completed,1,121.98,USD,true,Online Store,SIM-S005556,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0139,2027-05-09,C0095,1,New,Repair,Self ship,Completed,1,239.96,USD,true,Online Store,SIM-S005607,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0140,2027-05-10,C0096,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005614,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0141,2027-05-10,C0014,2,Returning,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S005621,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0142,2027-05-10,C0097,1,New,Repair,Mail-In Kit,Completed,2,244.95,USD,true,Online Store,SIM-S005629,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0143,2027-05-11,C0098,1,New,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S005678,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0144,2027-05-11,C0099,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005659,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0145,2027-05-11,C0100,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005675,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0146,2027-05-12,C0101,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005696,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0147,2027-05-13,C0102,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,Online Store,SIM-S005738,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0148,2027-05-13,C0103,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005743,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0149,2027-05-14,C0063,2,Returning,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S005781,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0150,2027-05-15,C0054,2,Returning,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S005839,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0151,2027-05-16,C0079,2,Returning,Repair,Self ship,Completed,1,139.98,USD,true,Online Store,SIM-S005903,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0152,2027-05-16,C0048,2,Returning,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005870,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0153,2027-05-17,C0104,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005967,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0154,2027-05-17,C0105,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S005932,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0155,2027-05-18,C0106,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0156,2027-05-19,C0107,1,New,Repair,Self ship,Completed,1,29.99,USD,true,Online Store,SIM-S006055,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0157,2027-05-19,C0108,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0158,2027-05-20,C0109,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S006098,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0159,2027-05-21,C0031,2,Returning,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S006122,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0160,2027-05-23,C0110,1,New,Repair,Self ship,Completed,1,53.98,USD,true,Online Store,SIM-S006198,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0161,2027-05-24,C0057,3,Returning,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0162,2027-05-24,C0111,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0163,2027-05-24,C0112,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S006273,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0164,2027-05-25,C0113,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S006346,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0165,2027-05-27,C0114,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S006428,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0166,2027-05-27,C0008,3,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0167,2027-05-28,C0115,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0168,2027-05-29,C0116,1,New,Premium,Not applicable,Completed,1,450.00,USD,true,Online Store,SIM-S006487,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0169,2027-05-30,C0100,2,Returning,Repair,Mail-In Kit,Completed,2,176.96,USD,true,Online Store,SIM-S006577,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0170,2027-05-30,C0117,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S006549,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0171,2027-05-31,C0118,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S006655,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0172,2027-05-31,C0119,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,Online Store,SIM-S006634,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0173,2027-05-31,C0108,2,Returning,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S006633,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0174,2027-06-02,C0074,2,Returning,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S006716,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0175,2027-06-02,C0120,1,New,Upgrade,Mail-In Kit,Completed,2,62.98,USD,true,Online Store,SIM-S006712,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0176,2027-06-03,C0015,2,Returning,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S006803,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0177,2027-06-03,C0001,4,Returning,Upgrade,Mail-In Kit,Completed,2,89.98,USD,true,Online Store,SIM-S006762,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0178,2027-06-03,C0121,1,New,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S006793,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0179,2027-06-03,C0074,3,Returning,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S006758,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0180,2027-06-03,C0122,1,New,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S006797,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0181,2027-06-03,C0043,5,Returning,Repair,Self ship,Completed,1,74.99,USD,true,Online Store,SIM-S006774,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0182,2027-06-05,C0123,1,New,Upgrade,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S006850,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0183,2027-06-08,C0124,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S007006,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0184,2027-06-09,C0125,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S007070,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0185,2027-06-09,C0051,3,Returning,Repair,Mail-In Kit,Completed,2,289.95,USD,true,Online Store,SIM-S007065,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0186,2027-06-11,C0126,1,New,Repair,Self ship,Completed,1,29.99,USD,true,Online Store,SIM-S007157,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0187,2027-06-12,C0127,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S007205,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0188,2027-06-12,C0128,1,New,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S007191,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0189,2027-06-13,C0129,1,New,Upgrade,Mail-In Kit,Completed,2,62.98,USD,true,Online Store,SIM-S007259,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0190,2027-06-15,C0106,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S007361,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0191,2027-06-15,C0130,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S007371,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0192,2027-06-16,C0131,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S007400,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0193,2027-06-18,C0132,1,New,Upgrade,Mail-In Kit,Completed,2,132.97,USD,true,Online Store,SIM-S007460,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0194,2027-06-21,C0133,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S007600,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0195,2027-06-21,C0102,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0196,2027-06-22,C0134,1,New,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S007668,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0197,2027-06-23,C0135,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0198,2027-06-23,C0136,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0199,2027-06-23,C0137,1,New,Masterpiece,Not applicable,Completed,1,1250.00,USD,true,Online Store,SIM-S007685,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0200,2027-06-24,C0004,2,Returning,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S007755,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0201,2027-06-25,C0085,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0202,2027-06-26,C0138,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S007867,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0203,2027-06-27,C0110,2,Returning,Upgrade,Mail-In Kit,Completed,2,89.98,USD,true,Online Store,SIM-S007882,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0204,2027-06-27,C0139,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0205,2027-06-27,C0140,1,New,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S007926,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0206,2027-06-29,C0141,1,New,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S008022,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0207,2027-06-30,C0142,1,New,Upgrade,Self ship,Completed,1,244.97,USD,true,Online Store,SIM-S008064,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0208,2027-06-30,C0143,1,New,Repair,Self ship,Completed,1,29.99,USD,true,Online Store,SIM-S008038,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0209,2027-07-01,C0144,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S008120,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0210,2027-07-01,C0145,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008122,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0211,2027-07-02,C0146,1,New,Repair,Self ship,Completed,1,174.97,USD,true,Online Store,SIM-S008128,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0212,2027-07-04,C0147,1,New,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S008240,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0213,2027-07-04,C0148,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S008241,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0214,2027-07-05,C0105,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,Online Store,SIM-S008325,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0215,2027-07-05,C0149,1,New,Upgrade,Self ship,Completed,1,99.99,USD,true,Online Store,SIM-S008270,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0216,2027-07-06,C0146,2,Returning,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008347,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0217,2027-07-07,C0150,1,New,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S008414,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0218,2027-07-08,C0151,1,New,Repair,Self ship,Completed,1,74.99,USD,true,Online Store,SIM-S008504,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0219,2027-07-08,C0045,2,Returning,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S008459,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0220,2027-07-09,C0013,2,Returning,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S008541,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0221,2027-07-09,C0054,3,Returning,Upgrade,Self ship,Completed,1,94.99,USD,true,Online Store,SIM-S008532,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0222,2027-07-10,C0007,4,Returning,Upgrade,Mail-In Kit,Completed,2,132.97,USD,true,Online Store,SIM-S008564,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0223,2027-07-10,C0152,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008595,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0224,2027-07-11,C0153,1,New,Repair,Mail-In Kit,Completed,2,161.96,USD,true,Online Store,SIM-S008626,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0225,2027-07-11,C0154,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008630,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0226,2027-07-11,C0048,3,Returning,Repair,Mail-In Kit,Completed,2,141.97,USD,true,Online Store,SIM-S008645,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0227,2027-07-11,C0155,1,New,Repair,Mail-In Kit,Completed,2,154.97,USD,true,Online Store,SIM-S008660,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0228,2027-07-12,C0156,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S008685,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0229,2027-07-12,C0157,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008665,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0230,2027-07-13,C0047,3,Returning,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0231,2027-07-13,C0074,4,Returning,Repair,Self ship,Completed,1,179.97,USD,true,Online Store,SIM-S008710,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0232,2027-07-13,C0064,2,Returning,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S008717,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0233,2027-07-16,C0124,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S008839,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0234,2027-07-16,C0158,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008868,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0235,2027-07-17,C0159,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S008931,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0236,2027-07-17,C0091,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0237,2027-07-18,C0044,3,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0238,2027-07-18,C0118,2,Returning,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008943,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0239,2027-07-18,C0160,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008978,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0240,2027-07-19,C0161,1,New,Repair,Self ship,Completed,1,179.97,USD,true,Online Store,SIM-S009020,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0241,2027-07-19,C0162,1,New,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S009018,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0242,2027-07-19,C0163,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S008992,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0243,2027-07-20,C0164,1,New,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S009058,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0244,2027-07-21,C0165,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S009109,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0245,2027-07-22,C0166,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S009162,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0246,2027-07-22,C0023,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,Online Store,SIM-S009152,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0247,2027-07-24,C0167,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S009252,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0248,2027-07-25,C0023,3,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0249,2027-07-25,C0097,2,Returning,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S009301,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0250,2027-07-27,C0168,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S009374,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0251,2027-07-29,C0169,1,New,Repair,Mail-In Kit,Completed,2,161.96,USD,true,Online Store,SIM-S009477,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0252,2027-07-29,C0170,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S009479,Tablet,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0253,2027-07-30,C0171,1,New,Repair,Self ship,Completed,1,134.98,USD,true,Online Store,SIM-S009595,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0254,2027-07-30,C0172,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S009586,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0255,2027-07-31,C0062,2,Returning,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S009661,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0256,2027-07-31,C0173,1,New,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S009629,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0257,2027-07-31,C0174,1,New,Premium,Not applicable,Completed,1,375.00,USD,true,Online Store,SIM-S009626,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0258,2027-08-02,C0175,1,New,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S009710,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0259,2027-08-03,C0139,2,Returning,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S009748,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0260,2027-08-04,C0073,2,Returning,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S009826,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0261,2027-08-04,C0176,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S009809,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0262,2027-08-05,C0177,1,New,Upgrade,Mail-In Kit,Completed,2,99.98,USD,true,Online Store,SIM-S009859,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0263,2027-08-08,C0178,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0264,2027-08-09,C0105,3,Returning,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S010056,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0265,2027-08-09,C0179,1,New,Upgrade,Self ship,Completed,1,69.99,USD,true,Online Store,SIM-S010052,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0266,2027-08-09,C0102,3,Returning,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0267,2027-08-09,C0180,1,New,Repair,Self ship,Completed,1,114.98,USD,true,Online Store,SIM-S010023,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0268,2027-08-12,C0120,2,Returning,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S010211,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0269,2027-08-13,C0181,1,New,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S010283,Tablet,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0270,2027-08-16,C0030,4,Returning,Repair,Self ship,Completed,1,156.97,USD,true,Online Store,SIM-S010406,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0271,2027-08-17,C0182,1,New,Repair,Self ship,Completed,1,134.98,USD,true,Online Store,SIM-S010414,Tablet,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0272,2027-08-18,C0096,2,Returning,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0273,2027-08-19,C0183,1,New,Upgrade,Self ship,Completed,1,94.99,USD,true,Online Store,SIM-S010537,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0274,2027-08-20,C0184,1,New,Repair,Mail-In Kit,Completed,2,266.95,USD,true,Online Store,SIM-S010583,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0275,2027-08-20,C0185,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S010557,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0276,2027-08-20,C0052,2,Returning,Upgrade,Self ship,Completed,1,244.97,USD,true,Online Store,SIM-S010589,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0277,2027-08-21,C0186,1,New,Upgrade,Self ship,Completed,1,112.98,USD,true,Online Store,SIM-S010637,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0278,2027-08-22,C0187,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S010690,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0279,2027-08-22,C0188,1,New,Upgrade,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S010698,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0280,2027-08-23,C0189,1,New,Repair,Self ship,Completed,1,29.99,USD,true,Online Store,SIM-S010734,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0281,2027-08-24,C0121,2,Returning,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S010788,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0282,2027-08-27,C0190,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0283,2027-08-28,C0168,2,Returning,Upgrade,Self ship,Completed,1,69.99,USD,true,Online Store,SIM-S011025,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0284,2027-08-29,C0191,1,New,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S011059,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0285,2027-08-29,C0155,2,Returning,Upgrade,Self ship,Completed,1,112.98,USD,true,Online Store,SIM-S011104,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0286,2027-08-29,C0192,1,New,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S011066,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0287,2027-08-30,C0193,1,New,Repair,Self ship,Completed,1,134.98,USD,true,Online Store,SIM-S011126,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0288,2027-08-31,C0194,1,New,Upgrade,Mail-In Kit,Completed,2,99.98,USD,true,Online Store,SIM-S011136,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0289,2027-09-02,C0195,1,New,Upgrade,Self ship,Completed,1,94.99,USD,true,Online Store,SIM-S011246,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0290,2027-09-02,C0196,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011247,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0291,2027-09-02,C0197,1,New,Repair,Self ship,Completed,1,121.98,USD,true,Online Store,SIM-S011269,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0292,2027-09-03,C0074,5,Returning,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011340,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0293,2027-09-04,C0160,2,Returning,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S011386,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0294,2027-09-05,C0173,2,Returning,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0295,2027-09-07,C0116,2,Returning,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S011508,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0296,2027-09-07,C0124,3,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0297,2027-09-08,C0198,1,New,Upgrade,Mail-In Kit,Completed,2,132.97,USD,true,Online Store,SIM-S011550,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0298,2027-09-09,C0199,1,New,Repair,Self ship,Completed,1,29.99,USD,true,Online Store,SIM-S011614,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0299,2027-09-09,C0200,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011598,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0300,2027-09-09,C0201,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0301,2027-09-09,C0031,3,Returning,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011593,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0302,2027-09-09,C0202,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S011634,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0303,2027-09-09,C0203,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011627,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0304,2027-09-09,C0153,2,Returning,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0305,2027-09-09,C0204,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011610,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0306,2027-09-11,C0205,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0307,2027-09-11,C0206,1,New,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S011743,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0308,2027-09-12,C0010,3,Returning,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011810,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0309,2027-09-12,C0119,2,Returning,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S011770,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0310,2027-09-13,C0207,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0311,2027-09-14,C0208,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S011959,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0312,2027-09-14,C0209,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S011949,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0313,2027-09-14,C0016,4,Returning,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S011890,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0314,2027-09-15,C0125,2,Returning,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S012008,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0315,2027-09-15,C0096,3,Returning,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S012017,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0316,2027-09-15,C0210,1,New,Repair,Self ship,Completed,1,134.97,USD,true,Online Store,SIM-S011984,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0317,2027-09-15,C0211,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0318,2027-09-16,C0212,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0319,2027-09-18,C0213,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S012173,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0320,2027-09-19,C0214,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S012204,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0321,2027-09-19,C0043,6,Returning,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S012211,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0322,2027-09-20,C0070,2,Returning,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S012235,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0323,2027-09-20,C0215,1,New,Repair,Mail-In Kit,Completed,2,186.96,USD,true,Online Store,SIM-S012278,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0324,2027-09-21,C0216,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0325,2027-09-21,C0024,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0326,2027-09-23,C0217,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S012408,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0327,2027-09-24,C0034,3,Returning,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0328,2027-09-25,C0046,2,Returning,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S012519,Tablet,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0329,2027-09-26,C0218,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S012598,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0330,2027-09-26,C0219,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S012571,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0331,2027-09-26,C0220,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S012555,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0332,2027-09-27,C0221,1,New,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S012632,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0333,2027-09-28,C0222,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0334,2027-09-28,C0223,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S012682,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0335,2027-09-29,C0224,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S012700,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0336,2027-09-29,C0214,2,Returning,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S012747,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0337,2027-09-30,C0225,1,New,Premium,Not applicable,Completed,1,500.00,USD,true,Online Store,SIM-S012777,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0338,2027-10-02,C0226,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0339,2027-10-04,C0176,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0340,2027-10-08,C0227,1,New,Upgrade,Mail-In Kit,Completed,2,89.98,USD,true,Online Store,SIM-S013297,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0341,2027-10-10,C0147,2,Returning,Repair,Mail-In Kit,Completed,2,169.96,USD,true,Online Store,SIM-S013393,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0342,2027-10-11,C0201,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0343,2027-10-11,C0228,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0344,2027-10-13,C0229,1,New,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S013588,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0345,2027-10-13,C0230,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S013551,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0346,2027-10-13,C0231,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S013582,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0347,2027-10-13,C0232,1,New,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S013584,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0348,2027-10-14,C0233,1,New,Upgrade,Self ship,Completed,1,69.99,USD,true,Online Store,SIM-S013627,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0349,2027-10-14,C0234,1,New,Repair,Self ship,Completed,1,121.98,USD,true,Online Store,SIM-S013624,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0350,2027-10-14,C0235,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0351,2027-10-14,C0199,2,Returning,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S013630,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0352,2027-10-15,C0236,1,New,Repair,Self ship,Completed,1,84.98,USD,true,Online Store,SIM-S013690,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0353,2027-10-15,C0237,1,New,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S013681,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0354,2027-10-15,C0019,3,Returning,Repair,Self ship,Completed,1,186.97,USD,true,Online Store,SIM-S013693,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0355,2027-10-17,C0238,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0356,2027-10-18,C0239,1,New,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S013930,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0357,2027-10-21,C0240,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0358,2027-10-21,C0074,6,Returning,Repair,Mail-In Kit,Completed,2,129.97,USD,true,Online Store,SIM-S014072,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0359,2027-10-21,C0241,1,New,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S014102,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0360,2027-10-22,C0242,1,New,Upgrade,Mail-In Kit,Completed,2,114.98,USD,true,Online Store,SIM-S014128,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0361,2027-10-23,C0243,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S014212,Tablet,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0362,2027-10-24,C0244,1,New,Repair,Self ship,Completed,1,156.97,USD,true,Online Store,SIM-S014266,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0363,2027-10-24,C0023,4,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,Online Store,SIM-S014272,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0364,2027-10-24,C0245,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S014274,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0365,2027-10-25,C0166,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0366,2027-10-25,C0067,2,Returning,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S014305,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0367,2027-10-26,C0246,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S014359,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0368,2027-10-26,C0247,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0369,2027-10-26,C0075,2,Returning,Repair,Mail-In Kit,Completed,2,64.98,USD,true,Online Store,SIM-S014368,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0370,2027-10-26,C0248,1,New,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S014357,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0371,2027-10-27,C0249,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0372,2027-10-28,C0250,1,New,Repair,Self ship,Completed,1,121.98,USD,true,Online Store,SIM-S014472,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0373,2027-10-28,C0251,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S014449,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0374,2027-10-28,C0252,1,New,Upgrade,Mail-In Kit,Completed,2,119.98,USD,true,Online Store,SIM-S014464,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0375,2027-10-29,C0253,1,New,Repair,Self ship,Completed,1,53.98,USD,true,Online Store,SIM-S014509,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0376,2027-10-29,C0115,2,Returning,Upgrade,Mail-In Kit,Completed,2,99.98,USD,true,Online Store,SIM-S014520,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0377,2027-10-31,C0254,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S014636,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0378,2027-11-01,C0255,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0379,2027-11-02,C0038,4,Returning,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S014767,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0380,2027-11-02,C0256,1,New,Repair,Self ship,Completed,1,114.98,USD,true,Online Store,SIM-S014757,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0381,2027-11-02,C0257,1,New,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S014716,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0382,2027-11-03,C0258,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S014788,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0383,2027-11-03,C0259,1,New,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S014773,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0384,2027-11-03,C0260,1,New,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S014801,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0385,2027-11-04,C0176,3,Returning,Repair,Self ship,Completed,1,121.98,USD,true,Online Store,SIM-S014887,Tablet,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0386,2027-11-05,C0261,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0387,2027-11-05,C0262,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S014920,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0388,2027-11-05,C0263,1,New,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S014924,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0389,2027-11-08,C0190,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0390,2027-11-09,C0264,1,New,Repair,Self ship,Completed,1,53.98,USD,true,Online Store,SIM-S015249,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0391,2027-11-09,C0265,1,New,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S015268,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0392,2027-11-09,C0266,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S015291,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0393,2027-11-09,C0136,2,Returning,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0394,2027-11-10,C0170,2,Returning,Repair,Mail-In Kit,Completed,2,64.98,USD,true,Online Store,SIM-S015331,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0395,2027-11-10,C0265,2,Returning,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S015313,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0396,2027-11-11,C0267,1,New,Upgrade,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S015414,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0397,2027-11-11,C0268,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0398,2027-11-14,C0269,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S015605,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0399,2027-11-14,C0270,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S015574,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0400,2027-11-15,C0271,1,New,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S015637,Desktop,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0401,2027-11-16,C0071,2,Returning,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S015747,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0402,2027-11-16,C0272,1,New,Repair,Self ship,Completed,1,149.97,USD,true,Online Store,SIM-S015678,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0403,2027-11-16,C0273,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0404,2027-11-16,C0050,4,Returning,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S015720,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0405,2027-11-17,C0274,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,Online Store,SIM-S015815,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0406,2027-11-18,C0275,1,New,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S015861,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0407,2027-11-18,C0276,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S015858,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0408,2027-11-18,C0277,1,New,Upgrade,Mail-In Kit,Completed,2,149.98,USD,true,Online Store,SIM-S015867,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0409,2027-11-18,C0278,1,New,Upgrade,Mail-In Kit,Completed,2,62.98,USD,true,Online Store,SIM-S015840,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0410,2027-11-19,C0279,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S015940,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0411,2027-11-19,C0280,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0412,2027-11-19,C0281,1,New,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S015956,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0413,2027-11-21,C0282,1,New,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S016053,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0414,2027-11-22,C0010,4,Returning,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016066,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0415,2027-11-22,C0283,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0416,2027-11-22,C0284,1,New,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S016092,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0417,2027-11-23,C0285,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0418,2027-11-23,C0286,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0419,2027-11-23,C0287,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,Online Store,SIM-S016166,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0420,2027-11-23,C0288,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016190,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0421,2027-11-23,C0289,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016201,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0422,2027-11-23,C0290,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,Online Store,SIM-S016179,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0423,2027-11-24,C0291,1,New,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S016231,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0424,2027-11-24,C0104,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S016244,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0425,2027-11-25,C0292,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0426,2027-11-25,C0293,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016273,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0427,2027-11-25,C0218,2,Returning,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016275,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0428,2027-11-25,C0227,2,Returning,Upgrade,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S016276,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0429,2027-11-25,C0065,2,Returning,Repair,Mail-In Kit,Completed,2,111.97,USD,true,Online Store,SIM-S016296,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0430,2027-11-25,C0294,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016285,Mobile,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0431,2027-11-26,C0295,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S016343,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0432,2027-11-26,C0180,2,Returning,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S016327,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0433,2027-11-27,C0296,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016387,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0434,2027-11-27,C0057,4,Returning,Repair,Self ship,Completed,1,80.98,USD,true,Online Store,SIM-S016373,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0435,2027-11-27,C0022,3,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0436,2027-11-29,C0167,2,Returning,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0437,2027-11-29,C0297,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016491,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0438,2027-11-29,C0168,3,Returning,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016497,Tablet,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0439,2027-11-29,C0298,1,New,Repair,Mail-In Kit,Completed,2,94.98,USD,true,Online Store,SIM-S016484,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0440,2027-11-29,C0029,2,Returning,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0441,2027-11-29,C0299,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0442,2027-11-30,C0300,1,New,Premium,Not applicable,Completed,1,425.00,USD,true,Online Store,SIM-S016537,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0443,2027-11-30,C0272,2,Returning,Repair,Self ship,Completed,1,139.98,USD,true,Online Store,SIM-S016580,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0444,2027-11-30,C0301,1,New,Repair,Self ship,Completed,1,204.97,USD,true,Online Store,SIM-S016543,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0445,2027-11-30,C0302,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0446,2027-12-02,C0303,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S016678,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0447,2027-12-02,C0304,1,New,Upgrade,Mail-In Kit,Completed,2,89.98,USD,true,Online Store,SIM-S016654,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0448,2027-12-02,C0305,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,Online Store,SIM-S016707,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0449,2027-12-02,C0306,1,New,Repair,Self ship,Completed,1,199.97,USD,true,Online Store,SIM-S016703,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0450,2027-12-02,C0031,4,Returning,Repair,Self ship,Completed,1,141.97,USD,true,Online Store,SIM-S016711,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0451,2027-12-02,C0307,1,New,Upgrade,Mail-In Kit,Completed,2,114.98,USD,true,Online Store,SIM-S016691,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0452,2027-12-05,C0308,1,New,Repair,Self ship,Completed,1,53.98,USD,true,Online Store,SIM-S016865,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0453,2027-12-05,C0309,1,New,Repair,Self ship,Completed,1,156.97,USD,true,Online Store,SIM-S016902,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0454,2027-12-06,C0310,1,New,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S016963,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0455,2027-12-06,C0311,1,New,Upgrade,Self ship,Completed,1,42.99,USD,true,Online Store,SIM-S016951,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0456,2027-12-07,C0312,1,New,Repair,Self ship,Completed,1,181.97,USD,true,Online Store,SIM-S016981,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0457,2027-12-07,C0313,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S017028,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0458,2027-12-07,C0314,1,New,Repair,Mail-In Kit,Completed,2,134.97,USD,true,Online Store,SIM-S017020,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0459,2027-12-08,C0315,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0460,2027-12-08,C0316,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0461,2027-12-08,C0317,1,New,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S017082,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0462,2027-12-09,C0318,1,New,Repair,Self ship,Completed,1,134.98,USD,true,Online Store,SIM-S017103,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0463,2027-12-10,C0319,1,New,Repair,Self ship,Completed,1,44.99,USD,true,Online Store,SIM-S017218,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0464,2027-12-11,C0018,3,Returning,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S017270,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0465,2027-12-12,C0176,4,Returning,Repair,Mail-In Kit,Completed,2,100.97,USD,true,Online Store,SIM-S017378,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0466,2027-12-12,C0320,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,Online Store,SIM-S017319,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0467,2027-12-13,C0321,1,New,Repair,Self ship,Completed,1,76.98,USD,true,Online Store,SIM-S017431,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0468,2027-12-13,C0322,1,New,Repair,Self ship,Completed,1,166.97,USD,true,Online Store,SIM-S017432,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0469,2027-12-14,C0323,1,New,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S017509,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0470,2027-12-15,C0324,1,New,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S017541,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0471,2027-12-16,C0325,1,New,Masterpiece,Not applicable,Completed,1,2000.00,USD,true,Online Store,SIM-S017634,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0472,2027-12-17,C0294,2,Returning,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S017740,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0473,2027-12-18,C0326,1,New,Refurbished,Not applicable,Completed,1,74.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0474,2027-12-18,C0327,1,New,Repair,Mail-In Kit,Completed,2,89.97,USD,true,Online Store,SIM-S017789,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0475,2027-12-18,C0328,1,New,Refurbished,Not applicable,Completed,1,59.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0476,2027-12-19,C0316,2,Returning,Upgrade,Self ship,Completed,1,69.99,USD,true,Online Store,SIM-S017917,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0477,2027-12-20,C0329,1,New,Upgrade,Self ship,Completed,1,112.98,USD,true,Online Store,SIM-S018025,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0478,2027-12-20,C0330,1,New,Repair,Mail-In Kit,Completed,2,104.97,USD,true,Online Store,SIM-S018051,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0479,2027-12-20,C0319,2,Returning,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S017986,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0480,2027-12-22,C0313,2,Returning,Repair,Self ship,Completed,1,91.98,USD,true,Online Store,SIM-S018219,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0481,2027-12-23,C0331,1,New,Repair,Mail-In Kit,Completed,2,141.97,USD,true,Online Store,SIM-S018287,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0482,2027-12-23,C0332,1,New,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S018238,Mobile,Social,Instagram,owner_approved_simulated_mix
+SIM-2027-0483,2027-12-24,C0135,2,Returning,Repair,Self ship,Completed,1,114.98,USD,true,Online Store,SIM-S018346,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0484,2027-12-24,C0333,1,New,Repair,Mail-In Kit,Completed,2,176.96,USD,true,Online Store,SIM-S018366,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0485,2027-12-24,C0334,1,New,Repair,Self ship,Completed,1,29.99,USD,true,Online Store,SIM-S018341,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0486,2027-12-24,C0335,1,New,Upgrade,Mail-In Kit,Completed,2,89.98,USD,true,Online Store,SIM-S018339,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0487,2027-12-24,C0321,2,Returning,Repair,Self ship,Completed,1,156.97,USD,true,Online Store,SIM-S018323,Desktop,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0488,2027-12-26,C0336,1,New,Upgrade,Self ship,Completed,1,129.99,USD,true,Online Store,SIM-S018471,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0489,2027-12-26,C0337,1,New,Upgrade,Self ship,Completed,1,189.99,USD,true,Online Store,SIM-S018498,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0490,2027-12-27,C0338,1,New,Repair,Mail-In Kit,Completed,2,206.96,USD,true,Online Store,SIM-S018548,Mobile,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0491,2027-12-27,C0339,1,New,Repair,Self ship,Completed,1,156.97,USD,true,Online Store,SIM-S018585,Mobile,Search,Google,owner_approved_simulated_mix
+SIM-2027-0492,2027-12-27,C0340,1,New,Refurbished,Not applicable,Completed,1,69.99,USD,true,eBay,,,,,owner_approved_simulated_mix
+SIM-2027-0493,2027-12-28,C0341,1,New,Repair,Self ship,Completed,1,69.98,USD,true,Online Store,SIM-S018672,Tablet,Social,Facebook,owner_approved_simulated_mix
+SIM-2027-0494,2027-12-28,C0081,2,Returning,Repair,Mail-In Kit,Completed,2,231.96,USD,true,Online Store,SIM-S018604,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0495,2027-12-29,C0008,4,Returning,Upgrade,Self ship,Completed,1,49.99,USD,true,Online Store,SIM-S018726,Desktop,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0496,2027-12-29,C0235,2,Returning,Repair,Mail-In Kit,Completed,2,64.98,USD,true,Online Store,SIM-S018750,Desktop,Email,Email campaign,owner_approved_simulated_mix
+SIM-2027-0497,2027-12-30,C0342,1,New,Upgrade,Self ship,Completed,1,79.99,USD,true,Online Store,SIM-S018784,Mobile,Direct,Direct,owner_approved_simulated_mix
+SIM-2027-0498,2027-12-31,C0343,1,New,Repair,Mail-In Kit,Completed,2,96.97,USD,true,Online Store,SIM-S018821,Tablet,Search,Google,owner_approved_simulated_mix
+SIM-2027-0499,2027-12-31,C0274,2,Returning,Upgrade,Mail-In Kit,Completed,2,69.98,USD,true,Online Store,SIM-S018793,Desktop,Search,Google,owner_approved_simulated_mix
+SIM-2027-0500,2027-12-31,C0335,2,Returning,Upgrade,Self ship,Completed,1,112.98,USD,true,Online Store,SIM-S018830,Desktop,Direct,Direct,owner_approved_simulated_mix

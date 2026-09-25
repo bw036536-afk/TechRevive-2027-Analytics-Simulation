@@ -1,0 +1,61 @@
+month,referrer_source,referrer_name,sales_channel,sessions,online_store_visitors,pageviews,sessions_with_cart_additions,sessions_that_reached_checkout,sessions_that_completed_checkout,conversion_rate_pct,add_to_cart_rate_pct,reached_checkout_rate_pct,checkout_completion_rate_pct,is_synthetic
+2027-01,Direct,Direct,Online Store,442,417,1025,36,20,12,2.7149,8.1448,4.5249,60.0000,true
+2027-01,Email,Email campaign,Online Store,128,125,328,14,12,7,5.4688,10.9375,9.3750,58.3333,true
+2027-01,Search,Google,Online Store,502,471,1294,67,40,15,2.9880,13.3466,7.9681,37.5000,true
+2027-01,Social,Facebook,Online Store,180,179,392,13,9,3,1.6667,7.2222,5.0000,33.3333,true
+2027-01,Social,Instagram,Online Store,204,197,503,19,8,3,1.4706,9.3137,3.9216,37.5000,true
+2027-02,Direct,Direct,Online Store,344,334,819,36,22,8,2.3256,10.4651,6.3953,36.3636,true
+2027-02,Email,Email campaign,Online Store,94,94,214,5,2,0,0.0000,5.3191,2.1277,0.0000,true
+2027-02,Search,Google,Online Store,380,377,931,41,17,5,1.3158,10.7895,4.4737,29.4118,true
+2027-02,Social,Facebook,Online Store,121,120,296,16,11,2,1.6529,13.2231,9.0909,18.1818,true
+2027-02,Social,Instagram,Online Store,165,163,392,11,5,3,1.8182,6.6667,3.0303,60.0000,true
+2027-03,Direct,Direct,Online Store,435,431,1059,42,24,14,3.2184,9.6552,5.5172,58.3333,true
+2027-03,Email,Email campaign,Online Store,107,106,286,17,9,3,2.8037,15.8879,8.4112,33.3333,true
+2027-03,Search,Google,Online Store,502,491,1199,51,26,12,2.3904,10.1594,5.1793,46.1538,true
+2027-03,Social,Facebook,Online Store,136,135,303,8,4,2,1.4706,5.8824,2.9412,50.0000,true
+2027-03,Social,Instagram,Online Store,217,215,504,16,10,4,1.8433,7.3733,4.6083,40.0000,true
+2027-04,Direct,Direct,Online Store,384,379,908,37,23,12,3.1250,9.6354,5.9896,52.1739,true
+2027-04,Email,Email campaign,Online Store,91,91,255,18,13,3,3.2967,19.7802,14.2857,23.0769,true
+2027-04,Search,Google,Online Store,427,426,1034,34,14,3,0.7026,7.9625,3.2787,21.4286,true
+2027-04,Social,Facebook,Online Store,151,151,373,14,7,1,0.6623,9.2715,4.6358,14.2857,true
+2027-04,Social,Instagram,Online Store,193,193,440,15,8,4,2.0725,7.7720,4.1451,50.0000,true
+2027-05,Direct,Direct,Online Store,469,463,1207,54,36,14,2.9851,11.5139,7.6759,38.8889,true
+2027-05,Email,Email campaign,Online Store,110,110,308,16,14,9,8.1818,14.5455,12.7273,64.2857,true
+2027-05,Search,Google,Online Store,503,499,1234,49,28,9,1.7893,9.7416,5.5666,32.1429,true
+2027-05,Social,Facebook,Online Store,177,177,442,20,11,2,1.1299,11.2994,6.2147,18.1818,true
+2027-05,Social,Instagram,Online Store,202,200,473,24,16,1,0.4950,11.8812,7.9208,6.2500,true
+2027-06,Direct,Direct,Online Store,413,411,974,38,21,8,1.9370,9.2010,5.0847,38.0952,true
+2027-06,Email,Email campaign,Online Store,126,126,304,7,4,3,2.3810,5.5556,3.1746,75.0000,true
+2027-06,Search,Google,Online Store,476,472,1160,52,30,11,2.3109,10.9244,6.3025,36.6667,true
+2027-06,Social,Facebook,Online Store,159,159,427,18,11,3,1.8868,11.3208,6.9182,27.2727,true
+2027-06,Social,Instagram,Online Store,229,228,530,16,13,5,2.1834,6.9869,5.6769,38.4615,true
+2027-07,Direct,Direct,Online Store,498,496,1344,73,43,19,3.8153,14.6586,8.6345,44.1860,true
+2027-07,Email,Email campaign,Online Store,118,118,301,12,7,3,2.5424,10.1695,5.9322,42.8571,true
+2027-07,Search,Google,Online Store,568,561,1379,50,31,16,2.8169,8.8028,5.4577,51.6129,true
+2027-07,Social,Facebook,Online Store,197,197,485,13,9,3,1.5228,6.5990,4.5685,33.3333,true
+2027-07,Social,Instagram,Online Store,216,216,547,27,14,4,1.8519,12.5000,6.4815,28.5714,true
+2027-08,Direct,Direct,Online Store,449,449,1126,48,33,13,2.8953,10.6904,7.3497,39.3939,true
+2027-08,Email,Email campaign,Online Store,113,113,300,13,8,3,2.6549,11.5044,7.0796,37.5000,true
+2027-08,Search,Google,Online Store,542,538,1291,44,25,5,0.9225,8.1181,4.6125,20.0000,true
+2027-08,Social,Facebook,Online Store,192,191,473,19,12,2,1.0417,9.8958,6.2500,16.6667,true
+2027-08,Social,Instagram,Online Store,226,226,537,18,10,4,1.7699,7.9646,4.4248,40.0000,true
+2027-09,Direct,Direct,Online Store,514,511,1222,45,28,11,2.1401,8.7549,5.4475,39.2857,true
+2027-09,Email,Email campaign,Online Store,123,123,306,16,6,3,2.4390,13.0081,4.8780,50.0000,true
+2027-09,Search,Google,Online Store,545,545,1295,37,22,9,1.6514,6.7890,4.0367,40.9091,true
+2027-09,Social,Facebook,Online Store,191,188,456,18,12,5,2.6178,9.4241,6.2827,41.6667,true
+2027-09,Social,Instagram,Online Store,243,242,643,33,20,9,3.7037,13.5802,8.2305,45.0000,true
+2027-10,Direct,Direct,Online Store,553,550,1374,55,32,10,1.8083,9.9458,5.7866,31.2500,true
+2027-10,Email,Email campaign,Online Store,158,158,388,15,6,2,1.2658,9.4937,3.7975,33.3333,true
+2027-10,Search,Google,Online Store,650,647,1601,72,33,15,2.3077,11.0769,5.0769,45.4545,true
+2027-10,Social,Facebook,Online Store,215,215,517,19,11,2,0.9302,8.8372,5.1163,18.1818,true
+2027-10,Social,Instagram,Online Store,259,258,612,21,9,1,0.3861,8.1081,3.4749,11.1111,true
+2027-11,Direct,Direct,Online Store,570,567,1415,61,36,23,4.0351,10.7018,6.3158,63.8889,true
+2027-11,Email,Email campaign,Online Store,195,195,463,23,15,10,5.1282,11.7949,7.6923,66.6667,true
+2027-11,Search,Google,Online Store,651,650,1629,52,28,11,1.6897,7.9877,4.3011,39.2857,true
+2027-11,Social,Facebook,Online Store,236,235,540,18,11,4,1.6949,7.6271,4.6610,36.3636,true
+2027-11,Social,Instagram,Online Store,306,306,764,35,19,4,1.3072,11.4379,6.2092,21.0526,true
+2027-12,Direct,Direct,Online Store,674,671,1671,71,42,18,2.6706,10.5341,6.2315,42.8571,true
+2027-12,Email,Email campaign,Online Store,207,207,513,20,12,8,3.8647,9.6618,5.7971,66.6667,true
+2027-12,Search,Google,Online Store,780,779,1889,61,40,16,2.0513,7.8205,5.1282,40.0000,true
+2027-12,Social,Facebook,Online Store,272,272,656,25,13,4,1.4706,9.1912,4.7794,30.7692,true
+2027-12,Social,Instagram,Online Store,319,319,786,39,20,4,1.2539,12.2257,6.2696,20.0000,true
