@@ -5,6 +5,18 @@
 
 An ecommerce analytics portfolio project exploring sales, product performance, and website conversion for a controller repair, upgrade, and refurbishment business. The project is being developed in Power BI, with space to add SQL queries and documented findings as the analysis progresses.
 
+## Power BI report: overall business performance
+
+[**View or download the one-page report (PDF)**](power-bi/overall-business-performance.pdf)
+
+[![Overall Business Performance report showing sales, orders, average order value, monthly trends, and sales-change highlights for the synthetic 2027 scenario](images/overall-business-performance.png)](power-bi/overall-business-performance.pdf)
+
+Built in Power BI Desktop and exported as a static PDF. The report covers annual net sales, order count, average order value, monthly sales and orders, month-over-month sales change, and comparisons between all orders and core business.
+
+**Core business** excludes whole orders whose `primary_category` is `Premium` or `Masterpiece`. The stacked sales chart separates core sales from those limited-release orders. Net sales uses order subtotals in USD and excludes taxes, shipping, fees, and costs.
+
+All results describe the fictional 2027 practice scenario, not actual TechRevive performance or a forecast.
+
 ## Business questions
 
 - How do sales and order volume vary across months?
@@ -61,17 +73,17 @@ This section documents the questions and query methods. Numerical findings and b
 ## Current progress
 
 - Version 2 practice data and its documentation are included.
-- Power BI report development has started, including slicers.
-- The first set of completed SQL queries is included in the [SQL analysis section](#sql-analysis-sales-overview). The Power BI file and report screenshots have not yet been added to this repository.
-- Findings and recommendations will be documented after the calculations and report are checked.
+- The first Power BI overview is complete and available as a [one-page PDF](power-bi/overall-business-performance.pdf), with a preview above.
+- The first set of completed SQL queries is included in the [SQL analysis section](#sql-analysis-sales-overview). The editable Power BI (.pbix) file is not included.
+- Further analysis of products, sales channels, and website conversion remains in progress.
 
 ## Repository layout
 
 ```text
 data/source/       Supplied version 2 data, documentation, and example reports
 sql/               SQL queries as they are completed
-power-bi/          Power BI report file when ready to share
-images/            Report screenshots when ready to share
+power-bi/          Exported Power BI reports (PDF)
+images/            Report preview images
 ```
 
 The CSV reports in `data/source/reports/` were supplied with the generated dataset as reference outputs. They are not presented as independently completed portfolio analysis. The included source `VALIDATION.md` records the dataset preparation checks, not validation of the developing Power BI report.
@@ -91,4 +103,4 @@ Costs, marketplace fees, taxes, and shipping are not modeled. The dataset suppor
 
 Download or clone this repository and read `data/source/README.md` first. The flat sales CSV provides an accessible starting point for sales analysis. Website traffic is stored separately for conversion analysis. The detailed orders, items, and products files support relational modeling.
 
-Additional queries, dashboard screenshots, and instructions for reproducing the finished report will be added as the project develops.
+Additional queries, report pages, and instructions for reproducing the analysis will be added as the project develops.
