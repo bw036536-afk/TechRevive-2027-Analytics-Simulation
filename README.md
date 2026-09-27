@@ -70,12 +70,39 @@ The first set of completed PostgreSQL queries is organized below. These files pr
 
 This section documents the questions and query methods. Numerical findings and business recommendations are not added here.
 
+## SQL analysis: product and service performance
+
+The second set of PostgreSQL analyses uses the item-level flat sales table. The original four-question file, `What sells the most.sql`, is split into four standalone files (09-12), so each business question has its own query block. Comments explain the source, filtering, grouping, counting, and sorting steps. The original calculations and filters are retained; file 12 only clarifies the output alias from `number_of_rows` to `number_of_orders`.
+
+| Analysis | Questions answered |
+| --- | --- |
+| [06 - Revenue by product category](sql/06_revenue_by_product_category.sql) | Which product categories generate the most revenue? |
+| [07 - Orders by product category](sql/07_orders_by_product_category.sql) | Which product categories have the highest number of distinct orders? |
+| [08 - Revenue by controller platform](sql/08_revenue_by_controller_platform.sql) | Which controller models and platforms generate the most revenue? |
+| [09 - Upgrade type popularity](sql/09_upgrade_type_popularity.sql) | Which individually selected upgrades appear in the most orders, considering repair add-ons and a la carte upgrades? |
+| [10 - Repair tier popularity](sql/10_repair_tier_popularity.sql) | Which repair tier appears in the most orders? |
+| [11 - Bundle tier popularity](sql/11_bundle_tier_popularity.sql) | Which bundle tier appears in the most orders? |
+| [12 - Upgrade path popularity](sql/12_upgrade_path_popularity.sql) | Which upgrade path appears in more orders: a la carte or bundles? |
+
+### Running and interpreting the product and service queries
+
+- Import [sales_2027_flat.csv](data/source/sales_2027_flat.csv) into `techrevive_2027.sales_2027_flat` before running these files in PostgreSQL. Use a numeric type for `line_total_usd`, an integer type for `quantity`, and text for the IDs and category/option fields. These query files do not create or import tables.
+- Each row represents an order item. Revenue is `SUM(line_total_usd)` in USD; popularity is `COUNT(DISTINCT order_id)`, not units sold. Orders can appear in more than one category, upgrade group, tier, or path, so group-level order counts are not additive.
+- These queries use the entire supplied 2027 table without a date filter. Files 08 and 09 retain preliminary `SELECT *` inspection statements; run each statement separately to view its result.
+- Product comparisons group by `analysis_category`, including separate Premium, Refurbished, and Masterpiece groups. They also retain the other categories in the source rather than restricting the results to finished controllers.
+- Platform analysis excludes `controller_model = 'Not applicable'`, then maps model prefixes to PlayStation, Xbox, or Nintendo. Other matching source rows fall under `N/A`. Revenue covers the included controller-related products and services.
+- Upgrade-type popularity includes `Repair service` and `Individual upgrades` only. It excludes bundles, keeps Hall Effect and TMR separate, keeps the individual mouse-click package names, and combines Four Rear Inputs / Four Back Paddles. A single order can select multiple upgrade types. This measures selected packages, not the number of physical buttons or components installed.
+- Repair-tier popularity includes only repair services. Bundle-tier popularity uses the three original variant-title values: OUTBREAK, APEX PREDATOR, and PATIENT ZERO. It assumes those names identify bundles in this dataset.
+- Upgrade-path popularity compares `Individual upgrades` with `Upgrade bundle`; repair-service add-ons are excluded. The clarified output alias in file 12 does not change the calculation.
+
+This section documents the existing queries and their methods. Numerical findings and recommendations will be documented separately. All activity is simulated, not actual TechRevive performance or a forecast.
+
 ## Current progress
 
 - Version 2 practice data and its documentation are included.
 - The first Power BI overview is complete and available as a [one-page PDF](power-bi/overall-business-performance.pdf), with a preview above.
 - The first set of completed SQL queries is included in the [SQL analysis section](#sql-analysis-sales-overview). The editable Power BI (.pbix) file is not included.
-- Further analysis of products, sales channels, and website conversion remains in progress.
+- The second set of SQL queries covers [product and service performance](#sql-analysis-product-and-service-performance). Further product analysis, sales-channel analysis, and website conversion remain in progress.
 
 ## Repository layout
 
@@ -104,3 +131,4 @@ Costs, marketplace fees, taxes, and shipping are not modeled. The dataset suppor
 Download or clone this repository and read `data/source/README.md` first. The flat sales CSV provides an accessible starting point for sales analysis. Website traffic is stored separately for conversion analysis. The detailed orders, items, and products files support relational modeling.
 
 Additional queries, report pages, and instructions for reproducing the analysis will be added as the project develops.
+
